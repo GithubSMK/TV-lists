@@ -1,0 +1,39 @@
+name: TV-lists IPTV Listelerini Guncelle
+
+on:
+  schedule:
+    # Her 3 saatte bir otomatik calisir (00:00, 03:00, 06:00, 09:00, 12:00, 15:00, 18:00, 21:00 UTC)
+    - cron: '0 */3 * * *'
+  workflow_dispatch: # GitHub arayuzunden manuel tetikleme butonu
+
+jobs:
+  update-m3u8:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Depoyu Klonla
+        uses: actions/checkout@v4
+
+      - name: Python Ortamini Hazirla
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Gereksinimleri Yukle
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Listeleri Kazı ve M3U8 Dosyalarini Olustur
+        run: |
+          python TV-lists.py
+
+      - name: Degisiklikleri Git'e Kaydet ve Push Et
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add TR.m3u8 NL.m3u8 *.m3u8
+          git diff --staged --quiet || (git commit -m "Otomatik liste guncellemesi [$(date '+%Y-%m-%d %H:%M UTC')]" && git push)
