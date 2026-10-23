@@ -140,8 +140,6 @@ https://vavoo.to/vavoo-iptv/play/2089709811dca5484f27f4
 https://vavoo.to/vavoo-iptv/play/11061394593631dd523267
 #EXTINF:-1 tvg-name="VIAPLAY 16" group-title="🇳🇱 Sport",VIAPLAY 16
 https://vavoo.to/vavoo-iptv/play/1057842116ce02d90e3f7
-#EXTINF:-1 tvg-name="VIAPLAY 17" group-title="🇳🇱 Sport",VIAPLAY 17
-https://vavoo.to/vavoo-iptv/play/992872995ed33935ce56a
 #EXTINF:-1 tvg-name="VIAPLAY 18" group-title="🇳🇱 Sport",VIAPLAY 18
 https://vavoo.to/vavoo-iptv/play/31120829306c37fea1280a
 #EXTINF:-1 tvg-name="VIAPLAY 19" group-title="🇳🇱 Sport",VIAPLAY 19
@@ -160,8 +158,6 @@ https://vavoo.to/vavoo-iptv/play/121181754916390c1db811
 https://vavoo.to/vavoo-iptv/play/419600854131b41047776c
 #EXTINF:-1 tvg-name="VIAPLAY 25" group-title="🇳🇱 Sport",VIAPLAY 25
 https://vavoo.to/vavoo-iptv/play/3346672621e9ae11e7b101
-#EXTINF:-1 tvg-name="VIAPLAY 26" group-title="🇳🇱 Sport",VIAPLAY 26
-https://vavoo.to/vavoo-iptv/play/2161791293404626881e64
 #EXTINF:-1 tvg-name="VIAPLAY 27" group-title="🇳🇱 Sport",VIAPLAY 27
 https://vavoo.to/vavoo-iptv/play/318311438110e184c59d73
 #EXTINF:-1 tvg-name="VIAPLAY 28" group-title="🇳🇱 Sport",VIAPLAY 28
@@ -396,10 +392,10 @@ https://vavoo.to/vavoo-iptv/play/33886817737dcf9bae27d7
 https://vavoo.to/vavoo-iptv/play/2629204497e948213e946f
 #EXTINF:-1 tvg-name="AT 5" group-title="🇳🇱 Regionaal",AT 5
 https://vavoo.to/vavoo-iptv/play/26077053499acb23932674
+#EXTINF:-1 tvg-name="BR6 TV" group-title="🇳🇱 Regionaal",BR6 TV
+https://vavoo.to/vavoo-iptv/play/3699377699174f5931c14c
 #EXTINF:-1 tvg-name="DEN HAAG FM" tvg-logo="https://logo.huhu.to/logo?c=1268929440.png" group-title="🇳🇱 Regionaal",DEN HAAG FM
 https://vavoo.to/vavoo-iptv/play/126892944049194eee6ac1
-#EXTINF:-1 tvg-name="IDEAAL TV" tvg-logo="https://logo.huhu.to/logo?c=1302816819.png" group-title="🇳🇱 Regionaal",IDEAAL TV
-https://vavoo.to/vavoo-iptv/play/13028168192c21969d8908
 #EXTINF:-1 tvg-name="L1" tvg-logo="https://logo.huhu.to/logo?c=1528285163.png" group-title="🇳🇱 Regionaal",L1
 https://vavoo.to/vavoo-iptv/play/1528285163cdb5caf07fad
 #EXTINF:-1 tvg-name="L1 TV LIMBURG" group-title="🇳🇱 Regionaal",L1 TV LIMBURG
