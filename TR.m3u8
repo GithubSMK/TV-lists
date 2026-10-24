@@ -32,8 +32,6 @@ https://vavoo.to/vavoo-iptv/play/2990410352438976430a38
 https://vavoo.to/vavoo-iptv/play/2693299013444c726b1ee4
 #EXTINF:-1 tvg-name="4K TR: TV8,5 HD" group-title="🇹🇷 Ulusal",4K TR: TV8,5 HD
 https://vavoo.to/vavoo-iptv/play/18867436247890d4c5bd71
-#EXTINF:-1 tvg-name="A2" tvg-logo="https://logo.huhu.to/logo?c=759245925.png" group-title="🇹🇷 Ulusal",A2
-https://vavoo.to/vavoo-iptv/play/759245925a154b345865d
 #EXTINF:-1 tvg-name="A2" group-title="🇹🇷 Ulusal",A2
 https://vavoo.to/vavoo-iptv/play/173580685187013b4a1318
 #EXTINF:-1 tvg-name="A2 HD" tvg-logo="https://logo.huhu.to/logo?c=867875861.png" group-title="🇹🇷 Ulusal",A2 HD
@@ -144,6 +142,8 @@ https://vavoo.to/vavoo-iptv/play/351471337029c80ca4c64
 https://vavoo.to/vavoo-iptv/play/37476469073149a4f729bc
 #EXTINF:-1 tvg-name="SHOW TV RAW" group-title="🇹🇷 Ulusal",SHOW TV RAW
 https://vavoo.to/vavoo-iptv/play/33174058547853caa0e516
+#EXTINF:-1 tvg-name="SHOW TV SD" tvg-logo="https://logo.huhu.to/logo?c=2112025777.png" group-title="🇹🇷 Ulusal",SHOW TV SD
+https://vavoo.to/vavoo-iptv/play/211202577752738f3dc7d9
 #EXTINF:-1 tvg-name="STAR HD (H265)" tvg-logo="https://logo.huhu.to/logo?c=1134124382.png" group-title="🇹🇷 Ulusal",STAR HD (H265)
 https://vavoo.to/vavoo-iptv/play/113412438222c1fe60b23d
 #EXTINF:-1 tvg-name="STAR HD SD" tvg-logo="https://logo.huhu.to/logo?c=3209892863.png" group-title="🇹🇷 Ulusal",STAR HD SD
@@ -208,8 +208,6 @@ https://vavoo.to/vavoo-iptv/play/1662562034e8a914e62dce
 https://vavoo.to/vavoo-iptv/play/1764745585e555f9ba3c0e
 #EXTINF:-1 tvg-name="TV 8 INTERNATIONAL" tvg-logo="https://logo.huhu.to/logo?c=3546432682.png" group-title="🇹🇷 Ulusal",TV 8 INTERNATIONAL
 https://vavoo.to/vavoo-iptv/play/3546432682c60db460810f
-#EXTINF:-1 tvg-name="TV 8 SD" tvg-logo="https://logo.huhu.to/logo?c=3695389987.png" group-title="🇹🇷 Ulusal",TV 8 SD
-https://vavoo.to/vavoo-iptv/play/369538998733b793a5838a
 #EXTINF:-1 tvg-name="TV 8.5" tvg-logo="https://logo.huhu.to/logo?c=14092376.png" group-title="🇹🇷 Ulusal",TV 8.5
 https://vavoo.to/vavoo-iptv/play/140923760a991ad56397
 #EXTINF:-1 tvg-name="TV 8.5" group-title="🇹🇷 Ulusal",TV 8.5
@@ -244,8 +242,6 @@ https://vavoo.to/vavoo-iptv/play/5455481338d50b246e682
 https://vavoo.to/vavoo-iptv/play/21232735984a3f0b463d66
 #EXTINF:-1 tvg-name="4K TR: S SPORT 2" group-title="🇹🇷 Spor",4K TR: S SPORT 2
 https://vavoo.to/vavoo-iptv/play/9369082742fdb8ca83c62
-#EXTINF:-1 tvg-name="4K TR: SPOR SMART" group-title="🇹🇷 Spor",4K TR: SPOR SMART
-https://vavoo.to/vavoo-iptv/play/3159604752e1cba547bb
 #EXTINF:-1 tvg-name="4K TR: SPORTS TV HD" group-title="🇹🇷 Spor",4K TR: SPORTS TV HD
 https://vavoo.to/vavoo-iptv/play/2429298798dcd505d1ab4b
 #EXTINF:-1 tvg-name="4K TR: TJK TV" group-title="🇹🇷 Spor",4K TR: TJK TV
@@ -354,8 +350,6 @@ https://vavoo.to/vavoo-iptv/play/4071474743dbe8a60b9395
 https://vavoo.to/vavoo-iptv/play/22528142332d275721233
 #EXTINF:-1 tvg-name="BEIN SPORTS MAX 2" tvg-logo="https://logo.huhu.to/logo?c=258968235.png" group-title="🇹🇷 Spor",BEIN SPORTS MAX 2
 https://vavoo.to/vavoo-iptv/play/25896823596a84e43dd09
-#EXTINF:-1 tvg-name="BEIN SPORTS MAX 2" group-title="🇹🇷 Spor",BEIN SPORTS MAX 2
-https://vavoo.to/vavoo-iptv/play/4017295127660d677c32f9
 #EXTINF:-1 tvg-name="BEIN SPORTS MAX 2 FHD" tvg-logo="https://logo.huhu.to/logo?c=3407936242.png" group-title="🇹🇷 Spor",BEIN SPORTS MAX 2 FHD
 https://vavoo.to/vavoo-iptv/play/3407936242f95c33ae8820
 #EXTINF:-1 tvg-name="BEIN SPORTS MAX 2 HD" tvg-logo="https://logo.huhu.to/logo?c=2212659820.png" group-title="🇹🇷 Spor",BEIN SPORTS MAX 2 HD
@@ -442,8 +436,6 @@ https://vavoo.to/vavoo-iptv/play/2462143546905b09fb80ad
 https://vavoo.to/vavoo-iptv/play/35138675369ae6fbf4e941
 #EXTINF:-1 tvg-name="S SPORT" tvg-logo="https://logo.huhu.to/logo?c=3346549722.png" group-title="🇹🇷 Spor",S SPORT
 https://vavoo.to/vavoo-iptv/play/33465497225b9857743b71
-#EXTINF:-1 tvg-name="S SPORT" group-title="🇹🇷 Spor",S SPORT
-https://vavoo.to/vavoo-iptv/play/37183362955b988ce99242
 #EXTINF:-1 tvg-name="S SPORT 2" tvg-logo="https://logo.huhu.to/logo?c=1313768516.png" group-title="🇹🇷 Spor",S SPORT 2
 https://vavoo.to/vavoo-iptv/play/1313768516926dc999c43b
 #EXTINF:-1 tvg-name="S SPORT 2" group-title="🇹🇷 Spor",S SPORT 2
@@ -512,6 +504,8 @@ https://vavoo.to/vavoo-iptv/play/1844863271513a413a321
 https://vavoo.to/vavoo-iptv/play/10977951419d3dfac60f92
 #EXTINF:-1 tvg-name="TABII SPOR 1 4K" tvg-logo="https://logo.huhu.to/logo?c=3830691316.png" group-title="🇹🇷 Spor",TABII SPOR 1 4K
 https://vavoo.to/vavoo-iptv/play/38306913165380d4cf64db
+#EXTINF:-1 tvg-name="TABII SPOR 1 720P" tvg-logo="https://logo.huhu.to/logo?c=3665914763.png" group-title="🇹🇷 Spor",TABII SPOR 1 720P
+https://vavoo.to/vavoo-iptv/play/36659147631b81d08d6c82
 #EXTINF:-1 tvg-name="TABII SPOR 1 UHD" tvg-logo="https://logo.huhu.to/logo?c=3107708522.png" group-title="🇹🇷 Spor",TABII SPOR 1 UHD
 https://vavoo.to/vavoo-iptv/play/310770852202539a162e99
 #EXTINF:-1 tvg-name="TABII SPOR 2" group-title="🇹🇷 Spor",TABII SPOR 2
@@ -534,6 +528,8 @@ https://vavoo.to/vavoo-iptv/play/13759861713a771b4b4726
 https://vavoo.to/vavoo-iptv/play/408817539739fafefc9d3b
 #EXTINF:-1 tvg-name="TABII SPOR 5" group-title="🇹🇷 Spor",TABII SPOR 5
 https://vavoo.to/vavoo-iptv/play/3035603077ef0df0e5da67
+#EXTINF:-1 tvg-name="TABII SPOR 5 HD" tvg-logo="https://logo.huhu.to/logo?c=2661933413.png" group-title="🇹🇷 Spor",TABII SPOR 5 HD
+https://vavoo.to/vavoo-iptv/play/26619334135baa08b0bc1a
 #EXTINF:-1 tvg-name="TABII SPOR 5 UHD" tvg-logo="https://logo.huhu.to/logo?c=3839332198.png" group-title="🇹🇷 Spor",TABII SPOR 5 UHD
 https://vavoo.to/vavoo-iptv/play/383933219867eefb660622
 #EXTINF:-1 tvg-name="TABII SPOR 6" group-title="🇹🇷 Spor",TABII SPOR 6
@@ -614,8 +610,6 @@ https://vavoo.to/vavoo-iptv/play/14238458092c57f9e072fb
 https://vavoo.to/vavoo-iptv/play/114501523d11f5030113f
 #EXTINF:-1 tvg-name="TRT SPOR YILDIZ RAW" group-title="🇹🇷 Spor",TRT SPOR YILDIZ RAW
 https://vavoo.to/vavoo-iptv/play/268929752745bb1e55d52a
-#EXTINF:-1 tvg-name="4K TR: EPIC DRAMA" group-title="🇹🇷 Sinema & Dizi",4K TR: EPIC DRAMA
-https://vavoo.to/vavoo-iptv/play/6782616930c5115ad7507
 #EXTINF:-1 tvg-name="4K TR: FX HD" group-title="🇹🇷 Sinema & Dizi",4K TR: FX HD
 https://vavoo.to/vavoo-iptv/play/15614953198c1780c4df07
 #EXTINF:-1 tvg-name="4K TR: S NEMA 1002 HD" group-title="🇹🇷 Sinema & Dizi",4K TR: S NEMA 1002 HD
@@ -680,6 +674,8 @@ https://vavoo.to/vavoo-iptv/play/4099015608239c33b463bc
 https://vavoo.to/vavoo-iptv/play/17233265984e83c5ef5947
 #EXTINF:-1 tvg-name="BEST SALON 1" group-title="🇹🇷 Sinema & Dizi",BEST SALON 1
 https://vavoo.to/vavoo-iptv/play/2585357317352fbfd92833
+#EXTINF:-1 tvg-name="BEST SALON 2" group-title="🇹🇷 Sinema & Dizi",BEST SALON 2
+https://vavoo.to/vavoo-iptv/play/37198947412070cf7796ed
 #EXTINF:-1 tvg-name="BEST SALON 3" group-title="🇹🇷 Sinema & Dizi",BEST SALON 3
 https://vavoo.to/vavoo-iptv/play/37723339252eec59344208
 #EXTINF:-1 tvg-name="DINAMIK DRAM" group-title="🇹🇷 Sinema & Dizi",DINAMIK DRAM
@@ -886,6 +882,8 @@ https://vavoo.to/vavoo-iptv/play/2511732024145ccd20a5d3
 https://vavoo.to/vavoo-iptv/play/8121316298dfb2ba1be71
 #EXTINF:-1 tvg-name="A NEWS" group-title="🇹🇷 Haber & Ekonomi",A NEWS
 https://vavoo.to/vavoo-iptv/play/1571071214f4fb96b462fe
+#EXTINF:-1 tvg-name="A NEWS HD" group-title="🇹🇷 Haber & Ekonomi",A NEWS HD
+https://vavoo.to/vavoo-iptv/play/387890889759c06a2c4da1
 #EXTINF:-1 tvg-name="A NEWS RAW" group-title="🇹🇷 Haber & Ekonomi",A NEWS RAW
 https://vavoo.to/vavoo-iptv/play/3415462105074dc2b1d646
 #EXTINF:-1 tvg-name="A PARA" tvg-logo="https://logo.huhu.to/logo?c=3892017014.png" group-title="🇹🇷 Haber & Ekonomi",A PARA
@@ -1062,8 +1060,6 @@ https://vavoo.to/vavoo-iptv/play/3053206623331d57002285
 https://vavoo.to/vavoo-iptv/play/329569928726734a4497dc
 #EXTINF:-1 tvg-name="24 KITCHEN" group-title="🇹🇷 Belgesel & Yaşam",24 KITCHEN
 https://vavoo.to/vavoo-iptv/play/332950484357e3f01f03c1
-#EXTINF:-1 tvg-name="24 KITCHEN HD" group-title="🇹🇷 Belgesel & Yaşam",24 KITCHEN HD
-https://vavoo.to/vavoo-iptv/play/42853502477bb17264f322
 #EXTINF:-1 tvg-name="4K TR: DA VINCI" group-title="🇹🇷 Belgesel & Yaşam",4K TR: DA VINCI
 https://vavoo.to/vavoo-iptv/play/41034540643b582da308f
 #EXTINF:-1 tvg-name="4K TR: DISCOVERY CHANNEL HD" group-title="🇹🇷 Belgesel & Yaşam",4K TR: DISCOVERY CHANNEL HD
@@ -1104,6 +1100,8 @@ https://vavoo.to/vavoo-iptv/play/10132204470a3c3b52576d
 https://vavoo.to/vavoo-iptv/play/369885232360b4a1528ab4
 #EXTINF:-1 tvg-name="DISCOVERY SCIENCE HD+" group-title="🇹🇷 Belgesel & Yaşam",DISCOVERY SCIENCE HD+
 https://vavoo.to/vavoo-iptv/play/2818684271ea7ddc0e09ff
+#EXTINF:-1 tvg-name="DISCOVERY WORLD" tvg-logo="https://logo.huhu.to/logo?c=3624002307.png" group-title="🇹🇷 Belgesel & Yaşam",DISCOVERY WORLD
+https://vavoo.to/vavoo-iptv/play/3624002307d3a1f474d7ce
 #EXTINF:-1 tvg-name="DMAX" tvg-logo="https://logo.huhu.to/logo?c=3157210436.png" group-title="🇹🇷 Belgesel & Yaşam",DMAX
 https://vavoo.to/vavoo-iptv/play/315721043612919a3e4725
 #EXTINF:-1 tvg-name="DMAX" group-title="🇹🇷 Belgesel & Yaşam",DMAX
@@ -1146,6 +1144,8 @@ https://vavoo.to/vavoo-iptv/play/1519237116daf8e783a22b
 https://vavoo.to/vavoo-iptv/play/124345657e7d701408114
 #EXTINF:-1 tvg-name="NATIONAL GEOGRAPHIC HD+" group-title="🇹🇷 Belgesel & Yaşam",NATIONAL GEOGRAPHIC HD+
 https://vavoo.to/vavoo-iptv/play/1514492628e6d09b31660c
+#EXTINF:-1 tvg-name="NUMBER ONE FM YABANCI M ZIK BURDA" group-title="🇹🇷 Belgesel & Yaşam",NUMBER ONE FM YABANCI M ZIK BURDA
+https://vavoo.to/vavoo-iptv/play/3916966300e4e588958124
 #EXTINF:-1 tvg-name="PAL STATION YABANCI M ZIK" group-title="🇹🇷 Belgesel & Yaşam",PAL STATION YABANCI M ZIK
 https://vavoo.to/vavoo-iptv/play/42015485361f438f2db763
 #EXTINF:-1 tvg-name="POWER FM YABANCI M ZIK" group-title="🇹🇷 Belgesel & Yaşam",POWER FM YABANCI M ZIK
@@ -1186,14 +1186,16 @@ https://vavoo.to/vavoo-iptv/play/3510107618b4bd2dc6657d
 https://vavoo.to/vavoo-iptv/play/327818589842dbaee1327c
 #EXTINF:-1 tvg-name="4K TR: DISNEY JUNIOR" group-title="🇹🇷 Çocuk",4K TR: DISNEY JUNIOR
 https://vavoo.to/vavoo-iptv/play/6492287228e9a72f932b5
+#EXTINF:-1 tvg-name="4K TR: DUCK TV HD" group-title="🇹🇷 Çocuk",4K TR: DUCK TV HD
+https://vavoo.to/vavoo-iptv/play/1709129189f694bdd416ac
 #EXTINF:-1 tvg-name="4K TR: M N KA GO" group-title="🇹🇷 Çocuk",4K TR: M N KA GO
 https://vavoo.to/vavoo-iptv/play/1230912428fed514f6312b
 #EXTINF:-1 tvg-name="4K TR: M N KA OCUK" group-title="🇹🇷 Çocuk",4K TR: M N KA OCUK
 https://vavoo.to/vavoo-iptv/play/248538205948705e1eeee
+#EXTINF:-1 tvg-name="4K TR: NICKTOONS" group-title="🇹🇷 Çocuk",4K TR: NICKTOONS
+https://vavoo.to/vavoo-iptv/play/988691374172058ef3d50
 #EXTINF:-1 tvg-name="4K TR: TRT OCUK HD" group-title="🇹🇷 Çocuk",4K TR: TRT OCUK HD
 https://vavoo.to/vavoo-iptv/play/30291805064bacb8a4036d
-#EXTINF:-1 tvg-name="BABY TV" tvg-logo="https://logo.huhu.to/logo?c=3820420855.png" group-title="🇹🇷 Çocuk",BABY TV
-https://vavoo.to/vavoo-iptv/play/382042085583b289bf81e2
 #EXTINF:-1 tvg-name="BABY TV" group-title="🇹🇷 Çocuk",BABY TV
 https://vavoo.to/vavoo-iptv/play/41848652906e4c7a933f55
 #EXTINF:-1 tvg-name="BABY TV HD" group-title="🇹🇷 Çocuk",BABY TV HD
@@ -1292,6 +1294,8 @@ https://vavoo.to/vavoo-iptv/play/3968360733afa6795a0a87
 https://vavoo.to/vavoo-iptv/play/2759159211bf8b5c4a304d
 #EXTINF:-1 tvg-name="DREAM BEIN OFFICE 10" group-title="🇹🇷 Müzik & Radyo",DREAM BEIN OFFICE 10
 https://vavoo.to/vavoo-iptv/play/385304349522b5e6fe1462
+#EXTINF:-1 tvg-name="DREAM BEIN OFFICE 2" group-title="🇹🇷 Müzik & Radyo",DREAM BEIN OFFICE 2
+https://vavoo.to/vavoo-iptv/play/382239321182403c667cfc
 #EXTINF:-1 tvg-name="DREAM BEIN OFFICE 3" group-title="🇹🇷 Müzik & Radyo",DREAM BEIN OFFICE 3
 https://vavoo.to/vavoo-iptv/play/373642004344d287985a44
 #EXTINF:-1 tvg-name="DREAM BEIN OFFICE 4" group-title="🇹🇷 Müzik & Radyo",DREAM BEIN OFFICE 4
@@ -1346,6 +1350,8 @@ https://vavoo.to/vavoo-iptv/play/358503385607b86bf71c43
 https://vavoo.to/vavoo-iptv/play/222080778325a1bcf07f54
 #EXTINF:-1 tvg-name="KRAL POP" group-title="🇹🇷 Müzik & Radyo",KRAL POP
 https://vavoo.to/vavoo-iptv/play/416983899397e266de7f51
+#EXTINF:-1 tvg-name="KRAL POP HD+" group-title="🇹🇷 Müzik & Radyo",KRAL POP HD+
+https://vavoo.to/vavoo-iptv/play/401243274930b2f0a2040b
 #EXTINF:-1 tvg-name="KRAL POP RADYO T RK E POP" group-title="🇹🇷 Müzik & Radyo",KRAL POP RADYO T RK E POP
 https://vavoo.to/vavoo-iptv/play/3295096268eab2a5c02580
 #EXTINF:-1 tvg-name="KRAL SAKIR" group-title="🇹🇷 Müzik & Radyo",KRAL SAKIR
@@ -1354,8 +1360,6 @@ https://vavoo.to/vavoo-iptv/play/157887264276aef2d064b9
 https://vavoo.to/vavoo-iptv/play/1505032467d0e227960a29
 #EXTINF:-1 tvg-name="KRAL TV" group-title="🇹🇷 Müzik & Radyo",KRAL TV
 https://vavoo.to/vavoo-iptv/play/1131281902d9a86688e843
-#EXTINF:-1 tvg-name="KRAL TV HD" group-title="🇹🇷 Müzik & Radyo",KRAL TV HD
-https://vavoo.to/vavoo-iptv/play/2879812830599c43994d1e
 #EXTINF:-1 tvg-name="MBAT FM ARABESK" group-title="🇹🇷 Müzik & Radyo",MBAT FM ARABESK
 https://vavoo.to/vavoo-iptv/play/27192936294eb850f65c6c
 #EXTINF:-1 tvg-name="MED MUZIK" tvg-logo="https://logo.huhu.to/logo?c=1861216008.png" group-title="🇹🇷 Müzik & Radyo",MED MUZIK
@@ -1384,10 +1388,10 @@ https://vavoo.to/vavoo-iptv/play/4234416466b6878ac343d7
 https://vavoo.to/vavoo-iptv/play/23667904081b95cae45de4
 #EXTINF:-1 tvg-name="POWER LOVE" tvg-logo="https://logo.huhu.to/logo?c=1783508809.png" group-title="🇹🇷 Müzik & Radyo",POWER LOVE
 https://vavoo.to/vavoo-iptv/play/178350880905c3993617e6
+#EXTINF:-1 tvg-name="POWER T RK T RK E POP" group-title="🇹🇷 Müzik & Radyo",POWER T RK T RK E POP
+https://vavoo.to/vavoo-iptv/play/2703806315a67a7c89a263
 #EXTINF:-1 tvg-name="POWER TURK" group-title="🇹🇷 Müzik & Radyo",POWER TURK
 https://vavoo.to/vavoo-iptv/play/538668348aa4815e4285a
-#EXTINF:-1 tvg-name="POWER TURK HD" group-title="🇹🇷 Müzik & Radyo",POWER TURK HD
-https://vavoo.to/vavoo-iptv/play/714196738c6888433546f
 #EXTINF:-1 tvg-name="POWER TURK TV" tvg-logo="https://logo.huhu.to/logo?c=176662368.png" group-title="🇹🇷 Müzik & Radyo",POWER TURK TV
 https://vavoo.to/vavoo-iptv/play/17666236897fc019f2aef
 #EXTINF:-1 tvg-name="POWER TV" tvg-logo="https://logo.huhu.to/logo?c=1509063606.png" group-title="🇹🇷 Müzik & Radyo",POWER TV
@@ -1470,8 +1474,6 @@ https://vavoo.to/vavoo-iptv/play/76941483786c9c7e5bf21
 https://vavoo.to/vavoo-iptv/play/730257349f3f3bc6d733a
 #EXTINF:-1 tvg-name="ANKARA T RKIYEM TV" group-title="🇹🇷 Yerel Kanallar",ANKARA T RKIYEM TV
 https://vavoo.to/vavoo-iptv/play/1443355363db5023a8a584
-#EXTINF:-1 tvg-name="ANTALYA KANAL V" group-title="🇹🇷 Yerel Kanallar",ANTALYA KANAL V
-https://vavoo.to/vavoo-iptv/play/19407670052f2ca6260436
 #EXTINF:-1 tvg-name="AS TV BURSA" tvg-logo="https://logo.huhu.to/logo?c=1889158339.png" group-title="🇹🇷 Yerel Kanallar",AS TV BURSA
 https://vavoo.to/vavoo-iptv/play/1889158339289b18ba407c
 #EXTINF:-1 tvg-name="AS TV BURSA" group-title="🇹🇷 Yerel Kanallar",AS TV BURSA
@@ -1508,6 +1510,8 @@ https://vavoo.to/vavoo-iptv/play/24135369173688afe711d0
 https://vavoo.to/vavoo-iptv/play/454047044e689f6c02bf8
 #EXTINF:-1 tvg-name="GUNEYDOGU TV" tvg-logo="https://logo.huhu.to/logo?c=3302625312.png" group-title="🇹🇷 Yerel Kanallar",GUNEYDOGU TV
 https://vavoo.to/vavoo-iptv/play/3302625312acf4f83dd0ca
+#EXTINF:-1 tvg-name="IZMIR TV 35" group-title="🇹🇷 Yerel Kanallar",IZMIR TV 35
+https://vavoo.to/vavoo-iptv/play/666189323a5c95459735b
 #EXTINF:-1 tvg-name="KAHRAMANMARA AKSU TV" group-title="🇹🇷 Yerel Kanallar",KAHRAMANMARA AKSU TV
 https://vavoo.to/vavoo-iptv/play/1716018058bd4b2efcbfe2
 #EXTINF:-1 tvg-name="KANAL 42 KONYA" group-title="🇹🇷 Yerel Kanallar",KANAL 42 KONYA
@@ -1612,6 +1616,8 @@ https://vavoo.to/vavoo-iptv/play/3978460736eee7cf5d26f1
 https://vavoo.to/vavoo-iptv/play/1917558455120761543969
 #EXTINF:-1 tvg-name="ANAKKALE BOĞAZ TV" group-title="🇹🇷 Genel",ANAKKALE BOĞAZ TV
 https://vavoo.to/vavoo-iptv/play/1943578223ce7cc4b1c284
+#EXTINF:-1 tvg-name="ANAKKALE TON TV" group-title="🇹🇷 Genel",ANAKKALE TON TV
+https://vavoo.to/vavoo-iptv/play/4250561695aeafaa1af43b
 #EXTINF:-1 tvg-name="ANIMATION 1 HD" group-title="🇹🇷 Genel",ANIMATION 1 HD
 https://vavoo.to/vavoo-iptv/play/7274274379cbbe0c37b06
 #EXTINF:-1 tvg-name="ANIMAUX" group-title="🇹🇷 Genel",ANIMAUX
@@ -1706,6 +1712,8 @@ https://vavoo.to/vavoo-iptv/play/20264594681bd1479ca3f0
 https://vavoo.to/vavoo-iptv/play/116873446031ff5e217441
 #EXTINF:-1 tvg-name="BEST NETFLIX" group-title="🇹🇷 Genel",BEST NETFLIX
 https://vavoo.to/vavoo-iptv/play/35317279904b909276b540
+#EXTINF:-1 tvg-name="BEST SAVAS" group-title="🇹🇷 Genel",BEST SAVAS
+https://vavoo.to/vavoo-iptv/play/13586163859ba90852bd44
 #EXTINF:-1 tvg-name="BEST TURK" group-title="🇹🇷 Genel",BEST TURK
 https://vavoo.to/vavoo-iptv/play/11961982805779396d2f21
 #EXTINF:-1 tvg-name="BEST WESTERN" group-title="🇹🇷 Genel",BEST WESTERN
@@ -1750,6 +1758,8 @@ https://vavoo.to/vavoo-iptv/play/4090316698975ac8a762bd
 https://vavoo.to/vavoo-iptv/play/267285118531e87b6ae01d
 #EXTINF:-1 tvg-name="CEM TV" group-title="🇹🇷 Genel",CEM TV
 https://vavoo.to/vavoo-iptv/play/145648263137480837677c
+#EXTINF:-1 tvg-name="CENGIZ KURTOGLU" group-title="🇹🇷 Genel",CENGIZ KURTOGLU
+https://vavoo.to/vavoo-iptv/play/18715210871230ecf990b4
 #EXTINF:-1 tvg-name="CHASSE ET PECHE" group-title="🇹🇷 Genel",CHASSE ET PECHE
 https://vavoo.to/vavoo-iptv/play/1475763901a25da27651f
 #EXTINF:-1 tvg-name="CIFTCI TV" tvg-logo="https://logo.huhu.to/logo?c=3124431103.png" group-title="🇹🇷 Genel",CIFTCI TV
@@ -1764,10 +1774,14 @@ https://vavoo.to/vavoo-iptv/play/2660902091c248c72d0cd6
 https://vavoo.to/vavoo-iptv/play/183207521594fc65b3f956
 #EXTINF:-1 tvg-name="DHA" group-title="🇹🇷 Genel",DHA
 https://vavoo.to/vavoo-iptv/play/40223592760f0af9f37d41
+#EXTINF:-1 tvg-name="DIGI MAX" group-title="🇹🇷 Genel",DIGI MAX
+https://vavoo.to/vavoo-iptv/play/127844757686ca7d664ae5
 #EXTINF:-1 tvg-name="DIM TV" tvg-logo="https://logo.huhu.to/logo?c=1072972009.png" group-title="🇹🇷 Genel",DIM TV
 https://vavoo.to/vavoo-iptv/play/1072972009ade9e4b4a779
 #EXTINF:-1 tvg-name="DINAMIK AKSIYON" group-title="🇹🇷 Genel",DINAMIK AKSIYON
 https://vavoo.to/vavoo-iptv/play/2337350974aa27a20a6514
+#EXTINF:-1 tvg-name="DINAMIK ANIMASYON" group-title="🇹🇷 Genel",DINAMIK ANIMASYON
+https://vavoo.to/vavoo-iptv/play/231764826926671978818a
 #EXTINF:-1 tvg-name="DINAMIK BILIMKURGU" group-title="🇹🇷 Genel",DINAMIK BILIMKURGU
 https://vavoo.to/vavoo-iptv/play/8847660680807874b7aa4
 #EXTINF:-1 tvg-name="DINAMIK IMBD" group-title="🇹🇷 Genel",DINAMIK IMBD
@@ -1940,8 +1954,6 @@ https://vavoo.to/vavoo-iptv/play/2093940826f764b66f64f5
 https://vavoo.to/vavoo-iptv/play/29173714095b974b9b47bc
 #EXTINF:-1 tvg-name="KANAL 15" tvg-logo="https://logo.huhu.to/logo?c=532894209.png" group-title="🇹🇷 Genel",KANAL 15
 https://vavoo.to/vavoo-iptv/play/5328942090f811960bbb5
-#EXTINF:-1 tvg-name="KANAL 15" group-title="🇹🇷 Genel",KANAL 15
-https://vavoo.to/vavoo-iptv/play/328914504230e0c25f2df0
 #EXTINF:-1 tvg-name="KANAL 23" tvg-logo="https://logo.huhu.to/logo?c=370660623.png" group-title="🇹🇷 Genel",KANAL 23
 https://vavoo.to/vavoo-iptv/play/3706606233e15ade88c7a
 #EXTINF:-1 tvg-name="KANAL 24" group-title="🇹🇷 Genel",KANAL 24
@@ -1992,8 +2004,12 @@ https://vavoo.to/vavoo-iptv/play/8138315577bf2ae8bf70e
 https://vavoo.to/vavoo-iptv/play/22154054220264091689b
 #EXTINF:-1 tvg-name="KANAL V" group-title="🇹🇷 Genel",KANAL V
 https://vavoo.to/vavoo-iptv/play/4014377632f76bd61156e
+#EXTINF:-1 tvg-name="KARADENIZ BRTV" group-title="🇹🇷 Genel",KARADENIZ BRTV
+https://vavoo.to/vavoo-iptv/play/1846780399d742807cb82e
 #EXTINF:-1 tvg-name="KARDELEN TV" tvg-logo="https://logo.huhu.to/logo?c=1270110607.png" group-title="🇹🇷 Genel",KARDELEN TV
 https://vavoo.to/vavoo-iptv/play/127011060769330a43e05e
+#EXTINF:-1 tvg-name="KARDELEN TV" group-title="🇹🇷 Genel",KARDELEN TV
+https://vavoo.to/vavoo-iptv/play/1198414561ad7fab54a200
 #EXTINF:-1 tvg-name="KAY TV" group-title="🇹🇷 Genel",KAY TV
 https://vavoo.to/vavoo-iptv/play/23796466374e2ee05f0779
 #EXTINF:-1 tvg-name="KELOGLAN" group-title="🇹🇷 Genel",KELOGLAN
@@ -2038,6 +2054,8 @@ https://vavoo.to/vavoo-iptv/play/108814985093ce0bbbf5d6
 https://vavoo.to/vavoo-iptv/play/375599442073736b876622
 #EXTINF:-1 tvg-name="MAHSUN KIRMIZIGUL" group-title="🇹🇷 Genel",MAHSUN KIRMIZIGUL
 https://vavoo.to/vavoo-iptv/play/23872380735387e7ce8a3f
+#EXTINF:-1 tvg-name="MAM EBU HANIFE" group-title="🇹🇷 Genel",MAM EBU HANIFE
+https://vavoo.to/vavoo-iptv/play/1986235183c48888a68609
 #EXTINF:-1 tvg-name="MASAL" group-title="🇹🇷 Genel",MASAL
 https://vavoo.to/vavoo-iptv/play/408975653674b39bcbabbf
 #EXTINF:-1 tvg-name="MASAL TV" group-title="🇹🇷 Genel",MASAL TV
@@ -2194,6 +2212,8 @@ https://vavoo.to/vavoo-iptv/play/3343868905cee63de46df4
 https://vavoo.to/vavoo-iptv/play/42280465621064ebc15bba
 #EXTINF:-1 tvg-name="SAT7 TURK" group-title="🇹🇷 Genel",SAT7 TURK
 https://vavoo.to/vavoo-iptv/play/2978732943ad6c3ffd9d10
+#EXTINF:-1 tvg-name="SAT7 TURK" group-title="🇹🇷 Genel",SAT7 TURK
+https://vavoo.to/vavoo-iptv/play/2978732943ad6c3ffd9d10
 #EXTINF:-1 tvg-name="SATRANÇ TV" group-title="🇹🇷 Genel",SATRANÇ TV
 https://vavoo.to/vavoo-iptv/play/1192565728f635dd56c60f
 #EXTINF:-1 tvg-name="SELDA BAGCAN" group-title="🇹🇷 Genel",SELDA BAGCAN
@@ -2214,6 +2234,8 @@ https://vavoo.to/vavoo-iptv/play/18802705619a03e126f4de
 https://vavoo.to/vavoo-iptv/play/1197572527f8384c637ae4
 #EXTINF:-1 tvg-name="SIFIR TV HD" tvg-logo="https://logo.huhu.to/logo?c=1553288763.png" group-title="🇹🇷 Genel",SIFIR TV HD
 https://vavoo.to/vavoo-iptv/play/155328876347a2cbbc72a9
+#EXTINF:-1 tvg-name="SINEVIZYON 1" group-title="🇹🇷 Genel",SINEVIZYON 1
+https://vavoo.to/vavoo-iptv/play/3562169936e24369ffef8d
 #EXTINF:-1 tvg-name="SINEVIZYON 5" group-title="🇹🇷 Genel",SINEVIZYON 5
 https://vavoo.to/vavoo-iptv/play/567459984fcc0c3381a21
 #EXTINF:-1 tvg-name="SINEVIZYON TURK 1" group-title="🇹🇷 Genel",SINEVIZYON TURK 1
@@ -2248,8 +2270,6 @@ https://vavoo.to/vavoo-iptv/play/3430890461cfc692e06899
 https://vavoo.to/vavoo-iptv/play/386858202535408958c42e
 #EXTINF:-1 tvg-name="T RK E POP" group-title="🇹🇷 Genel",T RK E POP
 https://vavoo.to/vavoo-iptv/play/27868531047ce3c7e0c624
-#EXTINF:-1 tvg-name="T.A.Y TV" tvg-logo="https://logo.huhu.to/logo?c=3633765645.png" group-title="🇹🇷 Genel",T.A.Y TV
-https://vavoo.to/vavoo-iptv/play/363376564553c0e5fb6262
 #EXTINF:-1 tvg-name="TARIH TV" tvg-logo="https://logo.huhu.to/logo?c=3856957052.png" group-title="🇹🇷 Genel",TARIH TV
 https://vavoo.to/vavoo-iptv/play/3856957052050da882aa10
 #EXTINF:-1 tvg-name="TARKAN" group-title="🇹🇷 Genel",TARKAN
@@ -2356,6 +2376,8 @@ https://vavoo.to/vavoo-iptv/play/1225673773af8c29391e81
 https://vavoo.to/vavoo-iptv/play/935671761c36c5491c3ed
 #EXTINF:-1 tvg-name="TVDEN TV" group-title="🇹🇷 Genel",TVDEN TV
 https://vavoo.to/vavoo-iptv/play/3524690612e75743431c37
+#EXTINF:-1 tvg-name="TVO TV" group-title="🇹🇷 Genel",TVO TV
+https://vavoo.to/vavoo-iptv/play/2916629658495062daeb5f
 #EXTINF:-1 tvg-name="TYT TURK" group-title="🇹🇷 Genel",TYT TURK
 https://vavoo.to/vavoo-iptv/play/18406648801d1a8ab316b6
 #EXTINF:-1 tvg-name="UCANKUS" group-title="🇹🇷 Genel",UCANKUS
@@ -2370,6 +2392,8 @@ https://vavoo.to/vavoo-iptv/play/383064803927c5b4107d20
 https://vavoo.to/vavoo-iptv/play/15664461228f5c7a25a520
 #EXTINF:-1 tvg-name="ULTRA KEMAL SUNAL" group-title="🇹🇷 Genel",ULTRA KEMAL SUNAL
 https://vavoo.to/vavoo-iptv/play/317434201637fa05adb599
+#EXTINF:-1 tvg-name="ULTRA KORKU" group-title="🇹🇷 Genel",ULTRA KORKU
+https://vavoo.to/vavoo-iptv/play/356356254709757fc813c5
 #EXTINF:-1 tvg-name="ULTRA TURK" group-title="🇹🇷 Genel",ULTRA TURK
 https://vavoo.to/vavoo-iptv/play/1868001587a3901abe7695
 #EXTINF:-1 tvg-name="UR FANATIK TV" tvg-logo="https://logo.huhu.to/logo?c=639659359.png" group-title="🇹🇷 Genel",UR FANATIK TV
@@ -2380,14 +2404,14 @@ https://vavoo.to/vavoo-iptv/play/32821815116af88acacbb6
 https://vavoo.to/vavoo-iptv/play/2730047464284a34ade8a0
 #EXTINF:-1 tvg-name="VIYANA TV" tvg-logo="https://logo.huhu.to/logo?c=3442514805.png" group-title="🇹🇷 Genel",VIYANA TV
 https://vavoo.to/vavoo-iptv/play/344251480556f9e5db0f41
+#EXTINF:-1 tvg-name="VIZYON 58" group-title="🇹🇷 Genel",VIZYON 58
+https://vavoo.to/vavoo-iptv/play/32753266152c4857a77a87
 #EXTINF:-1 tvg-name="VIZYON 58" tvg-logo="https://logo.huhu.to/logo?c=1264201556.png" group-title="🇹🇷 Genel",VIZYON 58
 https://vavoo.to/vavoo-iptv/play/1264201556943a2d9ea9aa
 #EXTINF:-1 tvg-name="VIZYON 58" group-title="🇹🇷 Genel",VIZYON 58
 https://vavoo.to/vavoo-iptv/play/1283602496384076ba9dda
 #EXTINF:-1 tvg-name="VUSLAT TV" tvg-logo="https://logo.huhu.to/logo?c=949033122.png" group-title="🇹🇷 Genel",VUSLAT TV
 https://vavoo.to/vavoo-iptv/play/94903312294e3da09f3b7
-#EXTINF:-1 tvg-name="VUSLAT TV" group-title="🇹🇷 Genel",VUSLAT TV
-https://vavoo.to/vavoo-iptv/play/106175275801eef0c50dd7
 #EXTINF:-1 tvg-name="WM TV WOMAN KADIN" group-title="🇹🇷 Genel",WM TV WOMAN KADIN
 https://vavoo.to/vavoo-iptv/play/3259520726e713e4000bfa
 #EXTINF:-1 tvg-name="X NOSTALJI T RK E KLASIK" group-title="🇹🇷 Genel",X NOSTALJI T RK E KLASIK
@@ -2400,6 +2424,8 @@ https://vavoo.to/vavoo-iptv/play/1952835738c83bfddaf481
 https://vavoo.to/vavoo-iptv/play/8685860582340e8bd0469
 #EXTINF:-1 tvg-name="YESILCAM 3" group-title="🇹🇷 Genel",YESILCAM 3
 https://vavoo.to/vavoo-iptv/play/245742586a1ae349871a9
+#EXTINF:-1 tvg-name="YILDIZ TILBE" group-title="🇹🇷 Genel",YILDIZ TILBE
+https://vavoo.to/vavoo-iptv/play/4050722013efecdc85c9b
 #EXTINF:-1 tvg-name="YOL TV" group-title="🇹🇷 Genel",YOL TV
 https://vavoo.to/vavoo-iptv/play/36035801315c2c657f7f29
 #EXTINF:-1 tvg-name="YOL TV" tvg-logo="https://logo.huhu.to/logo?c=1377055653.png" group-title="🇹🇷 Genel",YOL TV
