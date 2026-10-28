@@ -364,14 +364,10 @@ https://vavoo.to/vavoo-iptv/play/30068004282e1d7b2901a2
 https://vavoo.to/vavoo-iptv/play/223400681987987ea8e669
 #EXTINF:-1 tvg-name="MTV LIVE" group-title="🇳🇱 Muziek",MTV LIVE
 https://vavoo.to/vavoo-iptv/play/2735403248b72548f02c30
-#EXTINF:-1 tvg-name="NICK MUSIC" group-title="🇳🇱 Muziek",NICK MUSIC
-https://vavoo.to/vavoo-iptv/play/1137374425292f5baac48f
 #EXTINF:-1 tvg-name="NICKMUSIC" tvg-logo="https://logo.huhu.to/logo?c=518270746.png" group-title="🇳🇱 Muziek",NICKMUSIC
 https://vavoo.to/vavoo-iptv/play/51827074682ca51c3e261
 #EXTINF:-1 tvg-name="OMROEP BRABANT RADIO" tvg-logo="https://logo.huhu.to/logo?c=3640625031.png" group-title="🇳🇱 Muziek",OMROEP BRABANT RADIO
 https://vavoo.to/vavoo-iptv/play/36406250316eb185804e37
-#EXTINF:-1 tvg-name="QMUSIC" tvg-logo="https://logo.huhu.to/logo?c=4157396273.png" group-title="🇳🇱 Muziek",QMUSIC
-https://vavoo.to/vavoo-iptv/play/41573962734ad89e4e67b5
 #EXTINF:-1 tvg-name="RADIO 350" tvg-logo="https://logo.huhu.to/logo?c=2566467401.png" group-title="🇳🇱 Muziek",RADIO 350
 https://vavoo.to/vavoo-iptv/play/2566467401e114c0c4a767
 #EXTINF:-1 tvg-name="SALTO BRASA MUSIC" tvg-logo="https://logo.huhu.to/logo?c=4110941162.png" group-title="🇳🇱 Muziek",SALTO BRASA MUSIC
@@ -398,6 +394,8 @@ https://vavoo.to/vavoo-iptv/play/26077053499acb23932674
 https://vavoo.to/vavoo-iptv/play/3699377699174f5931c14c
 #EXTINF:-1 tvg-name="DEN HAAG FM" tvg-logo="https://logo.huhu.to/logo?c=1268929440.png" group-title="🇳🇱 Regionaal",DEN HAAG FM
 https://vavoo.to/vavoo-iptv/play/126892944049194eee6ac1
+#EXTINF:-1 tvg-name="IDEAAL TV" tvg-logo="https://logo.huhu.to/logo?c=1302816819.png" group-title="🇳🇱 Regionaal",IDEAAL TV
+https://vavoo.to/vavoo-iptv/play/13028168192c21969d8908
 #EXTINF:-1 tvg-name="L1" tvg-logo="https://logo.huhu.to/logo?c=1528285163.png" group-title="🇳🇱 Regionaal",L1
 https://vavoo.to/vavoo-iptv/play/1528285163cdb5caf07fad
 #EXTINF:-1 tvg-name="L1 TV LIMBURG" group-title="🇳🇱 Regionaal",L1 TV LIMBURG
@@ -414,6 +412,8 @@ https://vavoo.to/vavoo-iptv/play/2288615636e6a6b2695ed2
 https://vavoo.to/vavoo-iptv/play/1019029636c4cb113f2b90
 #EXTINF:-1 tvg-name="DANCE TRIPPIN" group-title="🇳🇱 Overig",DANCE TRIPPIN
 https://vavoo.to/vavoo-iptv/play/328260727221ecf2006ee0
+#EXTINF:-1 tvg-name="DAZN SOPORT 3 HD" group-title="🇳🇱 Overig",DAZN SOPORT 3 HD
+https://vavoo.to/vavoo-iptv/play/1371781997c0d2805d062d
 #EXTINF:-1 tvg-name="E!" tvg-logo="https://logo.huhu.to/logo?c=486015393.png" group-title="🇳🇱 Overig",E!
 https://vavoo.to/vavoo-iptv/play/486015393b8b7743096c9
 #EXTINF:-1 tvg-name="E! ENTERTAINMENT" tvg-logo="https://logo.huhu.to/logo?c=3680791301.png" group-title="🇳🇱 Overig",E! ENTERTAINMENT
@@ -507,8 +507,6 @@ https://vavoo.to/vavoo-iptv/play/3504870445d2b209777834
 #EXTINF:-1 tvg-name="RTV OOST" group-title="🇳🇱 Overig",RTV OOST
 https://vavoo.to/vavoo-iptv/play/1033150245c3718f5841f6
 #EXTINF:-1 tvg-name="RTV PARKSTAD" group-title="🇳🇱 Overig",RTV PARKSTAD
-https://vavoo.to/vavoo-iptv/play/290093242540ee6e8179aa
-#EXTINF:-1 tvg-name="RTV PARKSTAD" group-title="🇳🇱 Overig",RTV PARKSTAD
 https://vavoo.to/vavoo-iptv/play/1291072245966b99e417e9
 #EXTINF:-1 tvg-name="RTV PURMEREND" tvg-logo="https://logo.huhu.to/logo?c=2744749097.png" group-title="🇳🇱 Overig",RTV PURMEREND
 https://vavoo.to/vavoo-iptv/play/2744749097a6ba7eaa3d41
@@ -532,8 +530,6 @@ https://vavoo.to/vavoo-iptv/play/65491802159e52f573d5e
 https://vavoo.to/vavoo-iptv/play/1621703509ad72eb2fc37a
 #EXTINF:-1 tvg-name="SALTO MA LIVE" group-title="🇳🇱 Overig",SALTO MA LIVE
 https://vavoo.to/vavoo-iptv/play/180554669ad1bdb48c167
-#EXTINF:-1 tvg-name="SAMEN1 TV" tvg-logo="https://logo.huhu.to/logo?c=10016112.png" group-title="🇳🇱 Overig",SAMEN1 TV
-https://vavoo.to/vavoo-iptv/play/100161123fe17a7c8866
 #EXTINF:-1 tvg-name="SPIKE" group-title="🇳🇱 Overig",SPIKE
 https://vavoo.to/vavoo-iptv/play/265754413706e8304f59fa
 #EXTINF:-1 tvg-name="STINGRAY DJAZZ" tvg-logo="https://logo.huhu.to/logo?c=2990700903.png" group-title="🇳🇱 Overig",STINGRAY DJAZZ
