@@ -40,6 +40,8 @@ https://vavoo.to/vavoo-iptv/play/42886388119e81ba42ad0b
 https://vavoo.to/vavoo-iptv/play/52873904734f7ebff9e23
 #EXTINF:-1 tvg-name="NPO ZAPPELIN" tvg-logo="https://logo.huhu.to/logo?c=656697449.png" group-title="🇳🇱 Algemeen & NPO",NPO ZAPPELIN
 https://vavoo.to/vavoo-iptv/play/6566974494bd58722dad7
+#EXTINF:-1 tvg-name="NPO ZAPPELIN EXTRA/HUMOR" group-title="🇳🇱 Algemeen & NPO",NPO ZAPPELIN EXTRA/HUMOR
+https://vavoo.to/vavoo-iptv/play/2982961277f989cfe69b73
 #EXTINF:-1 tvg-name="RTL" group-title="🇳🇱 Algemeen & NPO",RTL
 https://vavoo.to/vavoo-iptv/play/2323583211f07aeb07428c
 #EXTINF:-1 tvg-name="RTL 4" tvg-logo="https://logo.huhu.to/logo?c=4226462509.png" group-title="🇳🇱 Algemeen & NPO",RTL 4
@@ -108,8 +110,6 @@ https://vavoo.to/vavoo-iptv/play/7409755629f24f861c07
 https://vavoo.to/vavoo-iptv/play/3837426329b026bc903bb9
 #EXTINF:-1 tvg-name="EUROSPORT 2" group-title="🇳🇱 Sport",EUROSPORT 2
 https://vavoo.to/vavoo-iptv/play/1137367364fad4e2b3f541
-#EXTINF:-1 tvg-name="EX SPORT (MATCH TIME)" group-title="🇳🇱 Sport",EX SPORT (MATCH TIME)
-https://vavoo.to/vavoo-iptv/play/400131544365955ed062d
 #EXTINF:-1 tvg-name="EXTREME SPORTS CHANNEL" tvg-logo="https://logo.huhu.to/logo?c=3322172799.png" group-title="🇳🇱 Sport",EXTREME SPORTS CHANNEL
 https://vavoo.to/vavoo-iptv/play/3322172799f4a6724e31ba
 #EXTINF:-1 tvg-name="FOX SPORTS 1" group-title="🇳🇱 Sport",FOX SPORTS 1
@@ -122,18 +122,20 @@ https://vavoo.to/vavoo-iptv/play/271809251598ac789ff089
 https://vavoo.to/vavoo-iptv/play/270668019efb0cc07b0ed
 #EXTINF:-1 tvg-name="VIAPLAY 1" group-title="🇳🇱 Sport",VIAPLAY 1
 https://vavoo.to/vavoo-iptv/play/315048506856aefbad8393
-#EXTINF:-1 tvg-name="VIAPLAY 11" group-title="🇳🇱 Sport",VIAPLAY 11
-https://vavoo.to/vavoo-iptv/play/302717325185de531a4740
-#EXTINF:-1 tvg-name="VIAPLAY 17" group-title="🇳🇱 Sport",VIAPLAY 17
-https://vavoo.to/vavoo-iptv/play/992872995ed33935ce56a
-#EXTINF:-1 tvg-name="VIAPLAY 18" group-title="🇳🇱 Sport",VIAPLAY 18
-https://vavoo.to/vavoo-iptv/play/31120829306c37fea1280a
+#EXTINF:-1 tvg-name="VIAPLAY 12" group-title="🇳🇱 Sport",VIAPLAY 12
+https://vavoo.to/vavoo-iptv/play/409039803530df252e76b6
 #EXTINF:-1 tvg-name="VIAPLAY 2" group-title="🇳🇱 Sport",VIAPLAY 2
 https://vavoo.to/vavoo-iptv/play/423473474805142599eb3c
+#EXTINF:-1 tvg-name="VIAPLAY 21" group-title="🇳🇱 Sport",VIAPLAY 21
+https://vavoo.to/vavoo-iptv/play/855280941a7223f5056a0
+#EXTINF:-1 tvg-name="VIAPLAY 3" group-title="🇳🇱 Sport",VIAPLAY 3
+https://vavoo.to/vavoo-iptv/play/3238577452f8ff1a76f9ae
 #EXTINF:-1 tvg-name="VIAPLAY 4" group-title="🇳🇱 Sport",VIAPLAY 4
 https://vavoo.to/vavoo-iptv/play/19320077408844a258ab2e
 #EXTINF:-1 tvg-name="VIAPLAY 5" group-title="🇳🇱 Sport",VIAPLAY 5
 https://vavoo.to/vavoo-iptv/play/13133538684e682a84c7fd
+#EXTINF:-1 tvg-name="VIAPLAY F1 OLAV MOL" group-title="🇳🇱 Sport",VIAPLAY F1 OLAV MOL
+https://vavoo.to/vavoo-iptv/play/897447105d14b727b221c
 #EXTINF:-1 tvg-name="VIAPLAY TV" group-title="🇳🇱 Sport",VIAPLAY TV
 https://vavoo.to/vavoo-iptv/play/32021194285abd67b28ace
 #EXTINF:-1 tvg-name="VIAPLAY TV GIDS VANDAAG" group-title="🇳🇱 Sport",VIAPLAY TV GIDS VANDAAG
@@ -168,8 +170,6 @@ https://vavoo.to/vavoo-iptv/play/1167725757cff12aa47360
 https://vavoo.to/vavoo-iptv/play/120053789a6e0e05d3db3
 #EXTINF:-1 tvg-name="ZIGGO SPORT RACING" group-title="🇳🇱 Sport",ZIGGO SPORT RACING
 https://vavoo.to/vavoo-iptv/play/45928125777f31e5d6a17
-#EXTINF:-1 tvg-name="ZIGGO SPORT RACING (ZIGGO SPORT 3)" tvg-logo="https://logo.huhu.to/logo?c=3120243495.png" group-title="🇳🇱 Sport",ZIGGO SPORT RACING (ZIGGO SPORT 3)
-https://vavoo.to/vavoo-iptv/play/3120243495b7ba07982ee5
 #EXTINF:-1 tvg-name="ZIGGO SPORT SELECT" tvg-logo="https://logo.huhu.to/logo?c=1585597115.png" group-title="🇳🇱 Sport",ZIGGO SPORT SELECT
 https://vavoo.to/vavoo-iptv/play/1585597115b31cbc65ba23
 #EXTINF:-1 tvg-name="ZIGGO SPORT SELECT" group-title="🇳🇱 Sport",ZIGGO SPORT SELECT
@@ -212,6 +212,8 @@ https://vavoo.to/vavoo-iptv/play/16047362789294d5451c64
 https://vavoo.to/vavoo-iptv/play/1721741465048ef78e1ea
 #EXTINF:-1 tvg-name="CURIOSITY CHANNEL" tvg-logo="https://logo.huhu.to/logo?c=2308264589.png" group-title="🇳🇱 Documentaire & Lifestyle",CURIOSITY CHANNEL
 https://vavoo.to/vavoo-iptv/play/2308264589febc71cda948
+#EXTINF:-1 tvg-name="DISCOVERY CHANNEL" group-title="🇳🇱 Documentaire & Lifestyle",DISCOVERY CHANNEL
+https://vavoo.to/vavoo-iptv/play/706021529d387e0b4af7e
 #EXTINF:-1 tvg-name="DISCOVERY ID" group-title="🇳🇱 Documentaire & Lifestyle",DISCOVERY ID
 https://vavoo.to/vavoo-iptv/play/793835474cb1881a0e910
 #EXTINF:-1 tvg-name="DISCOVERY SCIENCE" tvg-logo="https://logo.huhu.to/logo?c=3127261334.png" group-title="🇳🇱 Documentaire & Lifestyle",DISCOVERY SCIENCE
@@ -238,8 +240,6 @@ https://vavoo.to/vavoo-iptv/play/1348286826641e0f3b3190
 https://vavoo.to/vavoo-iptv/play/3800233024af4409f799d4
 #EXTINF:-1 tvg-name="NAT GEO WILD" tvg-logo="https://logo.huhu.to/logo?c=2172927372.png" group-title="🇳🇱 Documentaire & Lifestyle",NAT GEO WILD
 https://vavoo.to/vavoo-iptv/play/21729273720dbd881569b5
-#EXTINF:-1 tvg-name="NAT GEO WILD" group-title="🇳🇱 Documentaire & Lifestyle",NAT GEO WILD
-https://vavoo.to/vavoo-iptv/play/1637398576029a80fa1b66
 #EXTINF:-1 tvg-name="NJAM" tvg-logo="https://logo.huhu.to/logo?c=2021521631.png" group-title="🇳🇱 Documentaire & Lifestyle",NJAM
 https://vavoo.to/vavoo-iptv/play/20215216316f0c7e1bc795
 #EXTINF:-1 tvg-name="BABY TV" tvg-logo="https://logo.huhu.to/logo?c=3723054155.png" group-title="🇳🇱 Kids",BABY TV
@@ -250,12 +250,16 @@ https://vavoo.to/vavoo-iptv/play/18658430417004ddb83126
 https://vavoo.to/vavoo-iptv/play/3317588255cf435a219ffc
 #EXTINF:-1 tvg-name="CARTOON NETWORK" tvg-logo="https://logo.huhu.to/logo?c=2959444159.png" group-title="🇳🇱 Kids",CARTOON NETWORK
 https://vavoo.to/vavoo-iptv/play/2959444159973038a20036
+#EXTINF:-1 tvg-name="CARTOON NETWORK" group-title="🇳🇱 Kids",CARTOON NETWORK
+https://vavoo.to/vavoo-iptv/play/1792838672c2badee8bb1
 #EXTINF:-1 tvg-name="CARTOONITO" group-title="🇳🇱 Kids",CARTOONITO
 https://vavoo.to/vavoo-iptv/play/39554986247f37a848e540
 #EXTINF:-1 tvg-name="CARTOONITO" group-title="🇳🇱 Kids",CARTOONITO
 https://vavoo.to/vavoo-iptv/play/2455610291d6bbda607d35
 #EXTINF:-1 tvg-name="DISNEY CHANNEL" group-title="🇳🇱 Kids",DISNEY CHANNEL
 https://vavoo.to/vavoo-iptv/play/4053879c83ceebeba71
+#EXTINF:-1 tvg-name="DISNEY XD" group-title="🇳🇱 Kids",DISNEY XD
+https://vavoo.to/vavoo-iptv/play/203464866df8cbe71f2ef
 #EXTINF:-1 tvg-name="DUCK TV" tvg-logo="https://logo.huhu.to/logo?c=855410063.png" group-title="🇳🇱 Kids",DUCK TV
 https://vavoo.to/vavoo-iptv/play/855410063ef385532c012
 #EXTINF:-1 tvg-name="DUCK TV" group-title="🇳🇱 Kids",DUCK TV
@@ -296,6 +300,8 @@ https://vavoo.to/vavoo-iptv/play/8342374230cdd9e7b7646
 https://vavoo.to/vavoo-iptv/play/3933634364fa5fee1f7ec3
 #EXTINF:-1 tvg-name="MTV 24 MUSIC" group-title="🇳🇱 Muziek",MTV 24 MUSIC
 https://vavoo.to/vavoo-iptv/play/30068004282e1d7b2901a2
+#EXTINF:-1 tvg-name="MTV HITS" group-title="🇳🇱 Muziek",MTV HITS
+https://vavoo.to/vavoo-iptv/play/223400681987987ea8e669
 #EXTINF:-1 tvg-name="MTV LIVE" group-title="🇳🇱 Muziek",MTV LIVE
 https://vavoo.to/vavoo-iptv/play/2735403248b72548f02c30
 #EXTINF:-1 tvg-name="NICK MUSIC" group-title="🇳🇱 Muziek",NICK MUSIC
@@ -354,6 +360,8 @@ https://vavoo.to/vavoo-iptv/play/328260727221ecf2006ee0
 https://vavoo.to/vavoo-iptv/play/1371781997c0d2805d062d
 #EXTINF:-1 tvg-name="E!" tvg-logo="https://logo.huhu.to/logo?c=486015393.png" group-title="🇳🇱 Overig",E!
 https://vavoo.to/vavoo-iptv/play/486015393b8b7743096c9
+#EXTINF:-1 tvg-name="E! ENTERTAINMENT" tvg-logo="https://logo.huhu.to/logo?c=3680791301.png" group-title="🇳🇱 Overig",E! ENTERTAINMENT
+https://vavoo.to/vavoo-iptv/play/3680791301f192660c6f8e
 #EXTINF:-1 tvg-name="FAMILY 7" tvg-logo="https://logo.huhu.to/logo?c=3637574983.png" group-title="🇳🇱 Overig",FAMILY 7
 https://vavoo.to/vavoo-iptv/play/36375749836a7e9f33eab0
 #EXTINF:-1 tvg-name="FAMILY 7" group-title="🇳🇱 Overig",FAMILY 7
@@ -436,8 +444,6 @@ https://vavoo.to/vavoo-iptv/play/1603133272ccec03bc579
 https://vavoo.to/vavoo-iptv/play/1803785885a2655349bcbe
 #EXTINF:-1 tvg-name="RTV MAASTRICHT" group-title="🇳🇱 Overig",RTV MAASTRICHT
 https://vavoo.to/vavoo-iptv/play/528922302143a13e9aa8a
-#EXTINF:-1 tvg-name="RTV NOF" group-title="🇳🇱 Overig",RTV NOF
-https://vavoo.to/vavoo-iptv/play/5842558809e0dd7da44f3
 #EXTINF:-1 tvg-name="RTV NOORD" group-title="🇳🇱 Overig",RTV NOORD
 https://vavoo.to/vavoo-iptv/play/3504870445d2b209777834
 #EXTINF:-1 tvg-name="RTV OOST" group-title="🇳🇱 Overig",RTV OOST
