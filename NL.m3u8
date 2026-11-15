@@ -6,12 +6,12 @@
 https://vavoo.to/vavoo-iptv/play/485324152dce1ca15aeda
 #EXTINF:-1 tvg-name="BVN" tvg-logo="https://logo.huhu.to/logo?c=3668541006.png" group-title="🇳🇱 Algemeen & NPO",BVN
 https://vavoo.to/vavoo-iptv/play/3668541006263a82add333
+#EXTINF:-1 tvg-name="BVN" group-title="🇳🇱 Algemeen & NPO",BVN
+https://vavoo.to/vavoo-iptv/play/23491229fb2a76722c7f
 #EXTINF:-1 tvg-name="NET 5" tvg-logo="https://logo.huhu.to/logo?c=1751042276.png" group-title="🇳🇱 Algemeen & NPO",NET 5
 https://vavoo.to/vavoo-iptv/play/17510422768bfbac9f9825
 #EXTINF:-1 tvg-name="NET 5" group-title="🇳🇱 Algemeen & NPO",NET 5
 https://vavoo.to/vavoo-iptv/play/1784324088bcb6c5d9666b
-#EXTINF:-1 tvg-name="NPO 1" tvg-logo="https://logo.huhu.to/logo?c=3428620639.png" group-title="🇳🇱 Algemeen & NPO",NPO 1
-https://vavoo.to/vavoo-iptv/play/3428620639a6f01e0a1ba2
 #EXTINF:-1 tvg-name="NPO 1" group-title="🇳🇱 Algemeen & NPO",NPO 1
 https://vavoo.to/vavoo-iptv/play/34619264676d3d930141e4
 #EXTINF:-1 tvg-name="NPO 1 EXTRA" group-title="🇳🇱 Algemeen & NPO",NPO 1 EXTRA
@@ -32,14 +32,10 @@ https://vavoo.to/vavoo-iptv/play/508026046e54aeffbd60a
 https://vavoo.to/vavoo-iptv/play/2880122002c032959e7f59
 #EXTINF:-1 tvg-name="NPO NIEUWS" group-title="🇳🇱 Algemeen & NPO",NPO NIEUWS
 https://vavoo.to/vavoo-iptv/play/3526529441abe917c12893
-#EXTINF:-1 tvg-name="NPO POLITIEK" tvg-logo="https://logo.huhu.to/logo?c=4288638811.png" group-title="🇳🇱 Algemeen & NPO",NPO POLITIEK
-https://vavoo.to/vavoo-iptv/play/42886388119e81ba42ad0b
 #EXTINF:-1 tvg-name="NPO POLITIEK" group-title="🇳🇱 Algemeen & NPO",NPO POLITIEK
 https://vavoo.to/vavoo-iptv/play/52873904734f7ebff9e23
 #EXTINF:-1 tvg-name="NPO ZAPPELIN" tvg-logo="https://logo.huhu.to/logo?c=656697449.png" group-title="🇳🇱 Algemeen & NPO",NPO ZAPPELIN
 https://vavoo.to/vavoo-iptv/play/6566974494bd58722dad7
-#EXTINF:-1 tvg-name="NPO ZAPPELIN EXTRA/HUMOR" group-title="🇳🇱 Algemeen & NPO",NPO ZAPPELIN EXTRA/HUMOR
-https://vavoo.to/vavoo-iptv/play/2982961277f989cfe69b73
 #EXTINF:-1 tvg-name="RTL" group-title="🇳🇱 Algemeen & NPO",RTL
 https://vavoo.to/vavoo-iptv/play/2323583211f07aeb07428c
 #EXTINF:-1 tvg-name="RTL 4" tvg-logo="https://logo.huhu.to/logo?c=4226462509.png" group-title="🇳🇱 Algemeen & NPO",RTL 4
@@ -74,8 +70,6 @@ https://vavoo.to/vavoo-iptv/play/24380691275750dda868fe
 https://vavoo.to/vavoo-iptv/play/372300032176c2409b072d
 #EXTINF:-1 tvg-name="RTL Z" group-title="🇳🇱 Algemeen & NPO",RTL Z
 https://vavoo.to/vavoo-iptv/play/3756797213a05f6432654b
-#EXTINF:-1 tvg-name="RTL ZWEE" group-title="🇳🇱 Algemeen & NPO",RTL ZWEE
-https://vavoo.to/vavoo-iptv/play/6489009239cfacbf98e03
 #EXTINF:-1 tvg-name="SBS 6" tvg-logo="https://logo.huhu.to/logo?c=3172147333.png" group-title="🇳🇱 Algemeen & NPO",SBS 6
 https://vavoo.to/vavoo-iptv/play/31721473330984d090d1ea
 #EXTINF:-1 tvg-name="SBS 6" group-title="🇳🇱 Algemeen & NPO",SBS 6
@@ -110,8 +104,6 @@ https://vavoo.to/vavoo-iptv/play/7409755629f24f861c07
 https://vavoo.to/vavoo-iptv/play/3837426329b026bc903bb9
 #EXTINF:-1 tvg-name="EUROSPORT 2" group-title="🇳🇱 Sport",EUROSPORT 2
 https://vavoo.to/vavoo-iptv/play/1137367364fad4e2b3f541
-#EXTINF:-1 tvg-name="EX SPORT (MATCH TIME)" group-title="🇳🇱 Sport",EX SPORT (MATCH TIME)
-https://vavoo.to/vavoo-iptv/play/400131544365955ed062d
 #EXTINF:-1 tvg-name="EXTREME SPORTS CHANNEL" tvg-logo="https://logo.huhu.to/logo?c=3322172799.png" group-title="🇳🇱 Sport",EXTREME SPORTS CHANNEL
 https://vavoo.to/vavoo-iptv/play/3322172799f4a6724e31ba
 #EXTINF:-1 tvg-name="FOX SPORTS 1" group-title="🇳🇱 Sport",FOX SPORTS 1
@@ -130,30 +122,28 @@ https://vavoo.to/vavoo-iptv/play/409039803530df252e76b6
 https://vavoo.to/vavoo-iptv/play/34675540195848b774ac0c
 #EXTINF:-1 tvg-name="VIAPLAY 14" group-title="🇳🇱 Sport",VIAPLAY 14
 https://vavoo.to/vavoo-iptv/play/2089709811dca5484f27f4
-#EXTINF:-1 tvg-name="VIAPLAY 17" group-title="🇳🇱 Sport",VIAPLAY 17
-https://vavoo.to/vavoo-iptv/play/992872995ed33935ce56a
-#EXTINF:-1 tvg-name="VIAPLAY 18" group-title="🇳🇱 Sport",VIAPLAY 18
-https://vavoo.to/vavoo-iptv/play/31120829306c37fea1280a
+#EXTINF:-1 tvg-name="VIAPLAY 15" group-title="🇳🇱 Sport",VIAPLAY 15
+https://vavoo.to/vavoo-iptv/play/11061394593631dd523267
 #EXTINF:-1 tvg-name="VIAPLAY 2" group-title="🇳🇱 Sport",VIAPLAY 2
 https://vavoo.to/vavoo-iptv/play/423473474805142599eb3c
-#EXTINF:-1 tvg-name="VIAPLAY 20" group-title="🇳🇱 Sport",VIAPLAY 20
-https://vavoo.to/vavoo-iptv/play/26179292571190aebedce
-#EXTINF:-1 tvg-name="VIAPLAY 21" group-title="🇳🇱 Sport",VIAPLAY 21
-https://vavoo.to/vavoo-iptv/play/855280941a7223f5056a0
+#EXTINF:-1 tvg-name="VIAPLAY 25" group-title="🇳🇱 Sport",VIAPLAY 25
+https://vavoo.to/vavoo-iptv/play/3346672621e9ae11e7b101
 #EXTINF:-1 tvg-name="VIAPLAY 26" group-title="🇳🇱 Sport",VIAPLAY 26
 https://vavoo.to/vavoo-iptv/play/2161791293404626881e64
-#EXTINF:-1 tvg-name="VIAPLAY 30" group-title="🇳🇱 Sport",VIAPLAY 30
-https://vavoo.to/vavoo-iptv/play/3301340984f1b096c42773
-#EXTINF:-1 tvg-name="VIAPLAY 4" group-title="🇳🇱 Sport",VIAPLAY 4
-https://vavoo.to/vavoo-iptv/play/19320077408844a258ab2e
-#EXTINF:-1 tvg-name="VIAPLAY 5" group-title="🇳🇱 Sport",VIAPLAY 5
-https://vavoo.to/vavoo-iptv/play/13133538684e682a84c7fd
+#EXTINF:-1 tvg-name="VIAPLAY 3" group-title="🇳🇱 Sport",VIAPLAY 3
+https://vavoo.to/vavoo-iptv/play/3238577452f8ff1a76f9ae
+#EXTINF:-1 tvg-name="VIAPLAY 7" group-title="🇳🇱 Sport",VIAPLAY 7
+https://vavoo.to/vavoo-iptv/play/881353708d215bacca89a
+#EXTINF:-1 tvg-name="VIAPLAY F1 OLAV MOL" group-title="🇳🇱 Sport",VIAPLAY F1 OLAV MOL
+https://vavoo.to/vavoo-iptv/play/897447105d14b727b221c
 #EXTINF:-1 tvg-name="VIAPLAY INFO GUIDE" group-title="🇳🇱 Sport",VIAPLAY INFO GUIDE
 https://vavoo.to/vavoo-iptv/play/2822532713467b0fb2d566
 #EXTINF:-1 tvg-name="VIAPLAY TV" group-title="🇳🇱 Sport",VIAPLAY TV
 https://vavoo.to/vavoo-iptv/play/32021194285abd67b28ace
 #EXTINF:-1 tvg-name="VIAPLAY TV GIDS VANDAAG" group-title="🇳🇱 Sport",VIAPLAY TV GIDS VANDAAG
 https://vavoo.to/vavoo-iptv/play/30168812734b9e40112127
+#EXTINF:-1 tvg-name="VIAPLAY TV+" group-title="🇳🇱 Sport",VIAPLAY TV+
+https://vavoo.to/vavoo-iptv/play/4276483733ccba576f8eda
 #EXTINF:-1 tvg-name="ZIGGO DOCU" group-title="🇳🇱 Sport",ZIGGO DOCU
 https://vavoo.to/vavoo-iptv/play/38648098117220ba2eaf12
 #EXTINF:-1 tvg-name="ZIGGO SPORT" group-title="🇳🇱 Sport",ZIGGO SPORT
@@ -190,6 +180,8 @@ https://vavoo.to/vavoo-iptv/play/3120243495b7ba07982ee5
 https://vavoo.to/vavoo-iptv/play/1585597115b31cbc65ba23
 #EXTINF:-1 tvg-name="ZIGGO SPORT SELECT" group-title="🇳🇱 Sport",ZIGGO SPORT SELECT
 https://vavoo.to/vavoo-iptv/play/739290895162b7e00f6df
+#EXTINF:-1 tvg-name="ZIGGO SPORT TENNIS" group-title="🇳🇱 Sport",ZIGGO SPORT TENNIS
+https://vavoo.to/vavoo-iptv/play/26395997515177786f5c64
 #EXTINF:-1 tvg-name="ZIGGO SPORT TENNIS (ZIGGO SPORT 4)" tvg-logo="https://logo.huhu.to/logo?c=281998250.png" group-title="🇳🇱 Sport",ZIGGO SPORT TENNIS (ZIGGO SPORT 4)
 https://vavoo.to/vavoo-iptv/play/281998250a51d79e3de6e
 #EXTINF:-1 tvg-name="ZIGGO SPORT VOETBAL" group-title="🇳🇱 Sport",ZIGGO SPORT VOETBAL
@@ -310,8 +302,6 @@ https://vavoo.to/vavoo-iptv/play/6861457093ee4fc8fe17e
 https://vavoo.to/vavoo-iptv/play/1947363950cff5de74dd7
 #EXTINF:-1 tvg-name="MEZZO" group-title="🇳🇱 Muziek",MEZZO
 https://vavoo.to/vavoo-iptv/play/4062806292adbd5497f8f
-#EXTINF:-1 tvg-name="MTV" tvg-logo="https://logo.huhu.to/logo?c=834237423.png" group-title="🇳🇱 Muziek",MTV
-https://vavoo.to/vavoo-iptv/play/8342374230cdd9e7b7646
 #EXTINF:-1 tvg-name="MTV" group-title="🇳🇱 Muziek",MTV
 https://vavoo.to/vavoo-iptv/play/3933634364fa5fee1f7ec3
 #EXTINF:-1 tvg-name="MTV 24 MUSIC" group-title="🇳🇱 Muziek",MTV 24 MUSIC
@@ -320,8 +310,6 @@ https://vavoo.to/vavoo-iptv/play/30068004282e1d7b2901a2
 https://vavoo.to/vavoo-iptv/play/223400681987987ea8e669
 #EXTINF:-1 tvg-name="MTV LIVE" group-title="🇳🇱 Muziek",MTV LIVE
 https://vavoo.to/vavoo-iptv/play/2735403248b72548f02c30
-#EXTINF:-1 tvg-name="NICK MUSIC" group-title="🇳🇱 Muziek",NICK MUSIC
-https://vavoo.to/vavoo-iptv/play/1137374425292f5baac48f
 #EXTINF:-1 tvg-name="NICKMUSIC" tvg-logo="https://logo.huhu.to/logo?c=518270746.png" group-title="🇳🇱 Muziek",NICKMUSIC
 https://vavoo.to/vavoo-iptv/play/51827074682ca51c3e261
 #EXTINF:-1 tvg-name="OMROEP BRABANT RADIO" tvg-logo="https://logo.huhu.to/logo?c=3640625031.png" group-title="🇳🇱 Muziek",OMROEP BRABANT RADIO
@@ -350,8 +338,6 @@ https://vavoo.to/vavoo-iptv/play/33886817737dcf9bae27d7
 https://vavoo.to/vavoo-iptv/play/2629204497e948213e946f
 #EXTINF:-1 tvg-name="AT 5" group-title="🇳🇱 Regionaal",AT 5
 https://vavoo.to/vavoo-iptv/play/26077053499acb23932674
-#EXTINF:-1 tvg-name="BR6 TV" group-title="🇳🇱 Regionaal",BR6 TV
-https://vavoo.to/vavoo-iptv/play/3699377699174f5931c14c
 #EXTINF:-1 tvg-name="DEN HAAG FM" tvg-logo="https://logo.huhu.to/logo?c=1268929440.png" group-title="🇳🇱 Regionaal",DEN HAAG FM
 https://vavoo.to/vavoo-iptv/play/126892944049194eee6ac1
 #EXTINF:-1 tvg-name="IDEAAL TV" tvg-logo="https://logo.huhu.to/logo?c=1302816819.png" group-title="🇳🇱 Regionaal",IDEAAL TV
@@ -362,8 +348,6 @@ https://vavoo.to/vavoo-iptv/play/1528285163cdb5caf07fad
 https://vavoo.to/vavoo-iptv/play/323917574887955ea765d0
 #EXTINF:-1 tvg-name="LANSINGERLAND TV" tvg-logo="https://logo.huhu.to/logo?c=4245373197.png" group-title="🇳🇱 Regionaal",LANSINGERLAND TV
 https://vavoo.to/vavoo-iptv/play/4245373197f2b007e921b9
-#EXTINF:-1 tvg-name="LOE TV" tvg-logo="https://logo.huhu.to/logo?c=3172533701.png" group-title="🇳🇱 Regionaal",LOE TV
-https://vavoo.to/vavoo-iptv/play/31725337013562be3cfde2
 #EXTINF:-1 tvg-name="REGIO TV" group-title="🇳🇱 Regionaal",REGIO TV
 https://vavoo.to/vavoo-iptv/play/3014347710a76678c5acd2
 #EXTINF:-1 tvg-name="BBC FIRST" group-title="🇳🇱 Overig",BBC FIRST
@@ -372,14 +356,10 @@ https://vavoo.to/vavoo-iptv/play/2288615636e6a6b2695ed2
 https://vavoo.to/vavoo-iptv/play/1019029636c4cb113f2b90
 #EXTINF:-1 tvg-name="DANCE TRIPPIN" group-title="🇳🇱 Overig",DANCE TRIPPIN
 https://vavoo.to/vavoo-iptv/play/328260727221ecf2006ee0
-#EXTINF:-1 tvg-name="DAZN SOPORT 3 HD" group-title="🇳🇱 Overig",DAZN SOPORT 3 HD
-https://vavoo.to/vavoo-iptv/play/1371781997c0d2805d062d
 #EXTINF:-1 tvg-name="E!" tvg-logo="https://logo.huhu.to/logo?c=486015393.png" group-title="🇳🇱 Overig",E!
 https://vavoo.to/vavoo-iptv/play/486015393b8b7743096c9
 #EXTINF:-1 tvg-name="E! ENTERTAINMENT" tvg-logo="https://logo.huhu.to/logo?c=3680791301.png" group-title="🇳🇱 Overig",E! ENTERTAINMENT
 https://vavoo.to/vavoo-iptv/play/3680791301f192660c6f8e
-#EXTINF:-1 tvg-name="FAMILY 7" tvg-logo="https://logo.huhu.to/logo?c=3637574983.png" group-title="🇳🇱 Overig",FAMILY 7
-https://vavoo.to/vavoo-iptv/play/36375749836a7e9f33eab0
 #EXTINF:-1 tvg-name="FAMILY 7" group-title="🇳🇱 Overig",FAMILY 7
 https://vavoo.to/vavoo-iptv/play/453029930e6940d6e0858
 #EXTINF:-1 tvg-name="FASHION TV" group-title="🇳🇱 Overig",FASHION TV
@@ -444,12 +424,6 @@ https://vavoo.to/vavoo-iptv/play/403734524551f60afb5536
 https://vavoo.to/vavoo-iptv/play/2145651325855b91c7ca17
 #EXTINF:-1 tvg-name="RTV 7" group-title="🇳🇱 Overig",RTV 7
 https://vavoo.to/vavoo-iptv/play/21118559694445d779f93d
-#EXTINF:-1 tvg-name="RTV ARNHEM" tvg-logo="https://logo.huhu.to/logo?c=2748829730.png" group-title="🇳🇱 Overig",RTV ARNHEM
-https://vavoo.to/vavoo-iptv/play/27488297300367c97b625d
-#EXTINF:-1 tvg-name="RTV ARNHEM" group-title="🇳🇱 Overig",RTV ARNHEM
-https://vavoo.to/vavoo-iptv/play/36625728173122eabe94d4
-#EXTINF:-1 tvg-name="RTV CONNECT TV" tvg-logo="https://logo.huhu.to/logo?c=1844152054.png" group-title="🇳🇱 Overig",RTV CONNECT TV
-https://vavoo.to/vavoo-iptv/play/184415205469a9c50142ef
 #EXTINF:-1 tvg-name="RTV DRENTHE" tvg-logo="https://logo.huhu.to/logo?c=2935917618.png" group-title="🇳🇱 Overig",RTV DRENTHE
 https://vavoo.to/vavoo-iptv/play/2935917618b7e845558839
 #EXTINF:-1 tvg-name="RTV DRENTHE" group-title="🇳🇱 Overig",RTV DRENTHE
@@ -466,16 +440,12 @@ https://vavoo.to/vavoo-iptv/play/3504870445d2b209777834
 https://vavoo.to/vavoo-iptv/play/1033150245c3718f5841f6
 #EXTINF:-1 tvg-name="RTV PARKSTAD" group-title="🇳🇱 Overig",RTV PARKSTAD
 https://vavoo.to/vavoo-iptv/play/290093242540ee6e8179aa
-#EXTINF:-1 tvg-name="RTV PARKSTAD" group-title="🇳🇱 Overig",RTV PARKSTAD
-https://vavoo.to/vavoo-iptv/play/1291072245966b99e417e9
 #EXTINF:-1 tvg-name="RTV PURMEREND" tvg-logo="https://logo.huhu.to/logo?c=2744749097.png" group-title="🇳🇱 Overig",RTV PURMEREND
 https://vavoo.to/vavoo-iptv/play/2744749097a6ba7eaa3d41
 #EXTINF:-1 tvg-name="RTV PURMEREND" group-title="🇳🇱 Overig",RTV PURMEREND
 https://vavoo.to/vavoo-iptv/play/20378553575b166db06bc7
 #EXTINF:-1 tvg-name="RTV RIJNMOND" group-title="🇳🇱 Overig",RTV RIJNMOND
 https://vavoo.to/vavoo-iptv/play/257298035676c8708fa1f4
-#EXTINF:-1 tvg-name="RTV RIJNSTREEK TV" tvg-logo="https://logo.huhu.to/logo?c=3609554286.png" group-title="🇳🇱 Overig",RTV RIJNSTREEK TV
-https://vavoo.to/vavoo-iptv/play/3609554286b21d79cea364
 #EXTINF:-1 tvg-name="RTV SLINGELAND" tvg-logo="https://logo.huhu.to/logo?c=2400591548.png" group-title="🇳🇱 Overig",RTV SLINGELAND
 https://vavoo.to/vavoo-iptv/play/24005915483976f9c6bc5c
 #EXTINF:-1 tvg-name="RTV UTRECHT" tvg-logo="https://logo.huhu.to/logo?c=2796210402.png" group-title="🇳🇱 Overig",RTV UTRECHT
@@ -490,8 +460,6 @@ https://vavoo.to/vavoo-iptv/play/65491802159e52f573d5e
 https://vavoo.to/vavoo-iptv/play/1621703509ad72eb2fc37a
 #EXTINF:-1 tvg-name="SALTO MA LIVE" group-title="🇳🇱 Overig",SALTO MA LIVE
 https://vavoo.to/vavoo-iptv/play/180554669ad1bdb48c167
-#EXTINF:-1 tvg-name="SAMEN1 TV" tvg-logo="https://logo.huhu.to/logo?c=10016112.png" group-title="🇳🇱 Overig",SAMEN1 TV
-https://vavoo.to/vavoo-iptv/play/100161123fe17a7c8866
 #EXTINF:-1 tvg-name="SPIKE" group-title="🇳🇱 Overig",SPIKE
 https://vavoo.to/vavoo-iptv/play/265754413706e8304f59fa
 #EXTINF:-1 tvg-name="STINGRAY DJAZZ" tvg-logo="https://logo.huhu.to/logo?c=2990700903.png" group-title="🇳🇱 Overig",STINGRAY DJAZZ
@@ -538,7 +506,5 @@ https://vavoo.to/vavoo-iptv/play/18560594416a7d6a6d3c85
 https://vavoo.to/vavoo-iptv/play/373812622297fc85ad3155
 #EXTINF:-1 tvg-name="XITE ROCK" group-title="🇳🇱 Overig",XITE ROCK
 https://vavoo.to/vavoo-iptv/play/9216155382f2cc45f412
-#EXTINF:-1 tvg-name="ZFM ZOETERMEER" group-title="🇳🇱 Overig",ZFM ZOETERMEER
-https://vavoo.to/vavoo-iptv/play/34361608961885cfdd9fb6
 #EXTINF:-1 tvg-name="ZO!34" group-title="🇳🇱 Overig",ZO!34
 https://vavoo.to/vavoo-iptv/play/247488856a6b888d06868
