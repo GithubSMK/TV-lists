@@ -8,8 +8,8 @@ Bu depo, canlı TV kanallarını otomatik olarak çeker, akıllı algoritmayla *
 
 IPTV oynatıcınıza (TiviMate, IPTV Smarters, VLC, Kodi, Next IPTV vb.) ekleyebileceğiniz güncel **Raw** bağlantıları:
 
-| Ülke | Dosya | Doğrudan Oynatma Bağlantısı (Raw URL) |
-| :--- | :--- | :--- |
+| Ülke                   | Dosya       | Doğrudan Oynatma Bağlantısı (Raw URL)                             |
+| :---------------------- | :---------- | :-------------------------------------------------------------------- |
 | 🇹🇷 **Türkiye** | `TR.m3u8` | `https://raw.githubusercontent.com/GithubSMK/TV-lists/main/TR.m3u8` |
 | 🇳🇱 **Hollanda** | `NL.m3u8` | `https://raw.githubusercontent.com/GithubSMK/TV-lists/main/NL.m3u8` |
 
@@ -23,6 +23,7 @@ IPTV oynatıcınıza (TiviMate, IPTV Smarters, VLC, Kodi, Next IPTV vb.) ekleyeb
 Listelerdeki kanallar özel bir metin analizi ve normalizasyon filtresinden geçirilerek oynatıcınızda en mantıklı sıralamayla gruplandırılır:
 
 ### 🇹🇷 Türkiye Listesi (`TR.m3u8`)
+
 1. 🇹🇷 **Ulusal**: TRT 1, ATV, Kanal D, Show TV, Star TV, NOW, TV8, Kanal 7, Beyaz TV, Teve2, Flash TV vb.
 2. 🇹🇷 **Spor**: BeIN Sports, S Sport, Tivibu Spor, Smart Spor, TRT Spor, A Spor, FB TV, Exxen vb.
 3. 🇹🇷 **Sinema & Dizi**: BeIN Movies, Sinema TV kanalları, FilmBox, FX, dizi ve film kanalları.
@@ -35,6 +36,7 @@ Listelerdeki kanallar özel bir metin analizi ve normalizasyon filtresinden geç
 10. 🇹🇷 **Genel**: Diğer tematik ve genel yayınlar.
 
 ### 🇳🇱 Hollanda Listesi (`NL.m3u8`)
+
 1. 🇳🇱 **Algemeen & NPO**: NPO 1, 2, 3, RTL 4, 5, 7, 8, SBS 6, Veronica, Net 5, BVN
 2. 🇳🇱 **Sport**: Ziggo Sport, ESPN, Eurosport, Viaplay
 3. 🇳🇱 **Films & Series**: Film1, HBO, Comedy Central, Paramount Network
@@ -61,7 +63,28 @@ COUNTRY_GROUPS = {
 ```
 
 Desteklenen başlıca ülke isimleri:
+
 * `Turkey`, `Netherlands`, `Germany`, `United Kingdom`, `France`, `Italy`, `Spain`, `Arabia`, `Balkans`, `Russia`, `Poland`, `Portugal`, `Albania`, `Romania`, `Bulgaria`
+
+---
+
+## 🌐 Yedekli Sunucu (Mirror) Havuzu ve Alan Adı Yönetimi
+
+Sistem; sunucu kapanması, DNS engeli veya alan adı değişikliklerine karşı **yedekli ayna sunucu (failover)** mimarisine sahiptir. `TV-lists.py` çalışırken havuzdaki alan adlarını sırayla test eder, çalışan aktif sunucuyu otomatik seçer. Biri çökerse kesintisiz olarak diğerine geçer.
+
+İleride yeni bir alternatif site açıldığında veya mevcut bir site kapandığında `TV-lists.py` içerisindeki `MIRROR_DOMAINS` listesine ekleme/çıkarma yapabilirsiniz:
+
+```python
+MIRROR_DOMAINS = [
+    "kool.ws",
+    "geil.to",
+    "voltop.net",
+    "kool.to",
+    "vavoo.net"
+]
+```
+
+*(İsteğe bağlı olarak GitHub repository ayarlarında `TV_MIRROR_DOMAINS` isimli bir Environment Variable tanımlayarak da kodu hiç değiştirmeden sunucu listesini uzaktan güncelleyebilirsiniz: `kool.ws,geil.to,voltop.net`)*
 
 ---
 
