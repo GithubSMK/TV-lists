@@ -4,6 +4,7 @@ TV-lists Akıllı IPTV Kanal Düzenleyici ve M3U8 Üretici
 Hedef Depo: https://github.com/GithubSMK/TV-lists
 """
 
+import os
 import sys
 import time
 import uuid
@@ -13,22 +14,6 @@ from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
 import requests
 
-# ==============================================================================
-# SERVİS YAPILANDIRMASI (Runtime Deobfuscation)
-# ==============================================================================
-_K = 0x5C
-def _dec(b_arr):
-    return bytes(x ^ _K for x in b_arr).decode("utf-8")
-
-_SRV_PING_1 = bytes([52, 40, 40, 44, 47, 102, 115, 115, 43, 43, 43, 114, 42, 37, 44, 50, 114, 50, 57, 40, 115, 61, 44, 53, 115, 61, 44, 44, 115, 44, 53, 50, 59])
-_SRV_PING_2 = bytes([52, 40, 40, 44, 47, 102, 115, 115, 43, 43, 43, 114, 42, 61, 42, 51, 51, 114, 40, 42, 115, 61, 44, 53, 115, 61, 44, 44, 115, 44, 53, 50, 59])
-_SRV_PING_3 = bytes([52, 40, 40, 44, 47, 102, 115, 115, 63, 61, 63, 52, 57, 114, 42, 37, 44, 50, 114, 50, 57, 40, 115, 61, 44, 53, 115, 61, 44, 44, 115, 44, 53, 50, 59])
-_SRV_DOMAIN = bytes([42, 61, 42, 51, 51, 114, 40, 51])
-_SRV_STREAM = bytes([42, 61, 42, 51, 51, 113, 53, 44, 40, 42])
-_SRV_SIG_HDR = bytes([49, 57, 56, 53, 61, 52, 41, 62, 49, 36, 113, 47, 53, 59, 50, 61, 40, 41, 46, 57])
-_SRV_CATALOG = bytes([49, 57, 56, 53, 61, 52, 41, 62, 49, 36, 113, 63, 61, 40, 61, 48, 51, 59, 114, 54, 47, 51, 50])
-_SRV_PKG = bytes([50, 57, 40, 114, 42, 37, 44, 50, 114, 61, 44, 44])
-
 # Terminal çıktıları için UTF-8 yapılandırması
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8', line_buffering=True)
@@ -36,7 +21,43 @@ if hasattr(sys.stderr, 'reconfigure'):
     sys.stderr.reconfigure(encoding='utf-8', line_buffering=True)
 
 # ==============================================================================
-# YAPILANDIRMA: KANAL GRUPLARI VE ÇIKTI DOSYALARI
+# 1. YAPILANDIRMA: ALAN ADLARI VE YEDEK HAVUZU (MIRROR POOL)
+# ==============================================================================
+# Sitelerin kapanması veya yenilerinin açılması durumunda buradaki listeyi
+# kolayca güncelleyebilirsiniz. Kod otomatik olarak ilk çalışan sunucuyu bulur.
+# İleride yeni bir domain açılırsa buraya tek satır eklemeniz yeterlidir:
+MIRROR_DOMAINS = [
+    "kool.ws",
+    "geil.to",
+    "voltop.net",
+    "kool.to",
+    "vavoo.net"
+]
+
+# Ortam değişkeni desteği (İsteğe bağlı: GitHub Actions veya yerel env üzerinden geçersiz kılmak için)
+# Örn: TV_MIRROR_DOMAINS="kool.ws,geil.to,voltop.net"
+if os.environ.get("TV_MIRROR_DOMAINS"):
+    custom_domains = [d.strip() for d in os.environ["TV_MIRROR_DOMAINS"].split(",") if d.strip()]
+    if custom_domains:
+        MIRROR_DOMAINS = custom_domains
+
+# Oturum / Token alma uç noktaları (Ping Endpoints)
+PING_ENDPOINTS = [
+    "https://www.vypn.net/api/app/ping",
+    "https://cache.vypn.net/api/app/ping",
+    "https://www.vavoo.tv/api/app/ping"
+]
+
+# API Rotaları ve Protokol Sabitleri
+STREAM_ROUTE = "vavoo-iptv"
+CATALOG_ENDPOINT = "mediahubmx-catalog.json"
+SIG_HEADER = "mediahubmx-signature"
+PKG_NAME = "net.vypn.app"
+BROWSER_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+CLIENT_VERSION = "3.1.4"
+
+# ==============================================================================
+# 2. YAPILANDIRMA: KANAL GRUPLARI VE ÇIKTI DOSYALARI
 # İleride yeni bir ülke eklemek isterseniz aşağıdaki sözlüğe yeni satır ekleyebilirsiniz:
 # ==============================================================================
 COUNTRY_GROUPS = {
@@ -47,22 +68,13 @@ COUNTRY_GROUPS = {
     # "France": "FR.m3u8",
 }
 
-BROWSER_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
-CLIENT_VERSION = "3.1.4"
-
 
 def get_auth_signature(max_retries=3):
     """
     Uzak servis üzerinden oturum belirteci (token) alır.
     """
-    ping_urls = [
-        _dec(_SRV_PING_1),
-        _dec(_SRV_PING_2),
-        _dec(_SRV_PING_3)
-    ]
     uid = str(uuid.uuid4())
     ts = int(time.time() * 1000)
-    pkg_name = _dec(_SRV_PKG)
 
     payload = {
         "reason": "app-focus",
@@ -72,7 +84,7 @@ def get_auth_signature(max_retries=3):
             "device": {"type": "desktop", "uniqueId": uid},
             "os": {"name": "win32", "version": "Windows 10 Pro", "abis": ["x64"], "host": "Lenovo"},
             "app": {"platform": "electron"},
-            "version": {"package": pkg_name, "binary": "3.1.0", "js": "3.1.0"}
+            "version": {"package": PKG_NAME, "binary": "3.1.0", "js": "3.1.0"}
         },
         "appFocusTime": 0,
         "playerActive": False,
@@ -80,7 +92,7 @@ def get_auth_signature(max_retries=3):
         "devMode": False,
         "hasAddon": True,
         "castConnected": False,
-        "package": pkg_name,
+        "package": PKG_NAME,
         "version": "3.1.0",
         "process": "app",
         "firstAppStart": ts,
@@ -98,7 +110,7 @@ def get_auth_signature(max_retries=3):
     }
 
     for attempt in range(1, max_retries + 1):
-        for url in ping_urls:
+        for url in PING_ENDPOINTS:
             try:
                 r = requests.post(url, json=payload, headers=headers, timeout=10)
                 if r.status_code == 200:
@@ -114,6 +126,60 @@ def get_auth_signature(max_retries=3):
 
     print("⚠️ Oturum anahtarı alınamadı, devam ediliyor...")
     return None
+
+
+def get_working_domain(signature=None, domains=None):
+    """
+    Havuzdaki alan adlarını sırayla test eder ve hem katalog hem de API
+    yanıtı veren ilk çalışan aktif sunucuyu seçer.
+    """
+    if domains is None:
+        domains = MIRROR_DOMAINS
+
+    print("🔍 Aktif ayna (mirror) sunucu kontrol ediliyor...")
+    headers = {
+        "User-Agent": BROWSER_UA,
+        "Accept": "application/json",
+        "Accept-Language": "de",
+        "Content-Type": "application/json; charset=utf-8"
+    }
+    if signature:
+        headers[SIG_HEADER] = signature
+
+    probe_body = {
+        "language": "de",
+        "region": "AT",
+        "catalogId": "iptv",
+        "id": "iptv",
+        "adult": False,
+        "search": "",
+        "sort": "name",
+        "filter": {"group": "Turkey"},
+        "cursor": 0,
+        "clientVersion": CLIENT_VERSION
+    }
+
+    for domain in domains:
+        url = f"https://{domain}/{CATALOG_ENDPOINT}"
+        try:
+            print(f"   ⏳ Deneniyor: {domain:<15}", end=" ", flush=True)
+            r = requests.post(url, json=probe_body, headers=headers, timeout=8)
+            if r.status_code == 200:
+                data = r.json()
+                if isinstance(data, dict) and "items" in data:
+                    print(f"✅ AKTİF ({len(data.get('items', []))} örnek kanal yanıt verdi)")
+                    return domain
+                else:
+                    print("⚠️ Geçersiz veri formatı")
+            else:
+                print(f"❌ (HTTP {r.status_code})")
+        except requests.exceptions.RequestException:
+            print("❌ (Erişilemedi)")
+            continue
+
+    fallback = domains[0] if domains else "kool.ws"
+    print(f"⚠️ Havuzdaki sunuculardan canlı yanıt alınamadı. Varsayılan '{fallback}' ile devam ediliyor...")
+    return fallback
 
 
 def clean_channel_name(raw_name):
@@ -300,114 +366,121 @@ def get_channel_category(name, country_group):
     elif country_group == "Netherlands":
         return get_dutch_category(name)
     else:
-        # İleride eklenebilecek diğer ülkeler için varsayılan kategori
         return f"{country_group}"
 
 
-def fetch_group_channels(group_name, signature, domain=None):
+def fetch_group_channels(group_name, signature, active_domain=None):
     """
-    Belirli bir ülke grubunun tüm sayfalarını uzak katalog üzerinden çeker.
+    Belirli bir ülke grubunun tüm sayfalarını aktif sunucu üzerinden çeker.
+    Eğer aktif sunucu yanıt vermezse havuzdaki diğer sunuculara otomatik geçer (failover).
     """
-    if domain is None:
-        domain = _dec(_SRV_DOMAIN)
-    catalog_endpoint = _dec(_SRV_CATALOG)
-    catalog_url = f"https://{domain}/{catalog_endpoint}"
-    session = requests.Session()
-    headers = {
-        "User-Agent": BROWSER_UA,
-        "Accept": "application/json",
-        "Accept-Language": "de",
-        "Content-Type": "application/json; charset=utf-8"
-    }
-    if signature:
-        headers[_dec(_SRV_SIG_HDR)] = signature
-    session.headers.update(headers)
+    candidate_domains = [active_domain] + [d for d in MIRROR_DOMAINS if d != active_domain] if active_domain else MIRROR_DOMAINS
 
-    channels = []
-    cursor = 0
-    max_pages = 25
-
-    for _ in range(max_pages):
-        body = {
-            "language": "de",
-            "region": "AT",
-            "catalogId": "iptv",
-            "id": "iptv",
-            "adult": False,
-            "search": "",
-            "sort": "name",
-            "filter": {"group": group_name},
-            "cursor": cursor,
-            "clientVersion": CLIENT_VERSION
+    for domain in candidate_domains:
+        catalog_url = f"https://{domain}/{CATALOG_ENDPOINT}"
+        session = requests.Session()
+        headers = {
+            "User-Agent": BROWSER_UA,
+            "Accept": "application/json",
+            "Accept-Language": "de",
+            "Content-Type": "application/json; charset=utf-8"
         }
+        if signature:
+            headers[SIG_HEADER] = signature
+        session.headers.update(headers)
 
-        try:
-            r = session.post(catalog_url, json=body, timeout=15)
-            if r.status_code != 200:
+        channels = []
+        cursor = 0
+        max_pages = 25
+        fetch_success = False
+
+        for _ in range(max_pages):
+            body = {
+                "language": "de",
+                "region": "AT",
+                "catalogId": "iptv",
+                "id": "iptv",
+                "adult": False,
+                "search": "",
+                "sort": "name",
+                "filter": {"group": group_name},
+                "cursor": cursor,
+                "clientVersion": CLIENT_VERSION
+            }
+
+            try:
+                r = session.post(catalog_url, json=body, timeout=15)
+                if r.status_code != 200:
+                    break
+                data = r.json()
+                items = data.get("items", [])
+                if not items:
+                    fetch_success = True
+                    break
+
+                for itm in items:
+                    raw_name = itm.get("name", "")
+                    clean_name = clean_channel_name(raw_name)
+
+                    # Kanal ID ve oynatma linki tespiti
+                    chid = ""
+                    if isinstance(itm.get("ids"), dict):
+                        chid = itm["ids"].get("id", "")
+                    if not chid:
+                        chid = itm.get("id", "")
+
+                    url = itm.get("url") or itm.get("play") or ""
+                    if not url and chid:
+                        url = f"https://{domain}/{STREAM_ROUTE}/play/{chid}"
+                    elif url and "/play/" in url:
+                        m = re.search(r'/play/([^/?#]+)', url)
+                        if m:
+                            url = f"https://{domain}/{STREAM_ROUTE}/play/{m.group(1)}"
+                        else:
+                            url = re.sub(r'https?://[^/]+/play/', f'https://{domain}/{STREAM_ROUTE}/play/', url)
+
+                    if not url:
+                        continue
+
+                    # Logo tespiti
+                    images = itm.get("images", {}) if isinstance(itm.get("images"), dict) else {}
+                    logo = images.get("logo") or images.get("poster") or itm.get("logo") or itm.get("poster") or ""
+
+                    # EPG / TVG ID
+                    tvg_id = ""
+                    if isinstance(itm.get("ids"), dict):
+                        tvg_id = itm["ids"].get("tvg", "")
+
+                    # Akıllı Kategori Tespiti
+                    category = get_channel_category(clean_name, group_name)
+
+                    channels.append({
+                        "name": clean_name,
+                        "raw_name": raw_name,
+                        "url": url,
+                        "group": group_name,
+                        "category": category,
+                        "logo": logo,
+                        "tvg_id": tvg_id
+                    })
+
+                fetch_success = True
+                cursor = data.get("nextCursor")
+                if not cursor or cursor == 0:
+                    break
+            except Exception:
                 break
-            data = r.json()
-            items = data.get("items", [])
-            if not items:
-                break
 
-            for itm in items:
-                raw_name = itm.get("name", "")
-                clean_name = clean_channel_name(raw_name)
+        if fetch_success and len(channels) > 0:
+            return group_name, channels, domain
 
-                # Kanal ID ve oynatma linki tespiti
-                chid = ""
-                if isinstance(itm.get("ids"), dict):
-                    chid = itm["ids"].get("id", "")
-                if not chid:
-                    chid = itm.get("id", "")
-
-                stream_route = _dec(_SRV_STREAM)
-                url = itm.get("url") or itm.get("play") or ""
-                if not url and chid:
-                    url = f"https://{domain}/{stream_route}/play/{chid}"
-                elif url and "/play/" in url and f"/{stream_route}/" not in url:
-                    url = re.sub(r'https?://[^/]+/play/', f'https://{domain}/{stream_route}/play/', url)
-
-                if not url:
-                    continue
-
-                # Logo tespiti
-                images = itm.get("images", {}) if isinstance(itm.get("images"), dict) else {}
-                logo = images.get("logo") or images.get("poster") or itm.get("logo") or itm.get("poster") or ""
-
-                # EPG / TVG ID
-                tvg_id = ""
-                if isinstance(itm.get("ids"), dict):
-                    tvg_id = itm["ids"].get("tvg", "")
-
-                # Akıllı Kategori Tespiti
-                category = get_channel_category(clean_name, group_name)
-
-                channels.append({
-                    "name": clean_name,
-                    "raw_name": raw_name,
-                    "url": url,
-                    "group": group_name,
-                    "category": category,
-                    "logo": logo,
-                    "tvg_id": tvg_id
-                })
-
-            cursor = data.get("nextCursor")
-            if not cursor or cursor == 0:
-                break
-        except Exception as e:
-            print(f"❌ [{group_name}] Sayfa çekme hatası: {e}")
-            break
-
-    return group_name, channels
+    return group_name, [], active_domain or MIRROR_DOMAINS[0]
 
 
-def generate_m3u8(channels, output_file, group_title):
+def generate_m3u8(channels, output_file, group_title, active_domain):
     """
     Kanalları kategorilerine göre sıralı ve standart M3U8 formatında kaydeder.
     """
-    # Öncelikli kategori sıralaması (Oynatıcıda en üstte görünmesi istenen sıra)
     tr_order = [
         "🇹🇷 Ulusal", "🇹🇷 Spor", "🇹🇷 Sinema & Dizi", "🇹🇷 Haber & Ekonomi",
         "🇹🇷 Belgesel & Yaşam", "🇹🇷 Çocuk", "🇹🇷 Müzik & Radyo", "🇹🇷 Dini",
@@ -428,12 +501,11 @@ def generate_m3u8(channels, output_file, group_title):
     # Kanalları kategori önceliğine ve alfabetik sıraya göre diz
     sorted_channels = sorted(channels, key=sort_key)
 
-    target_domain = _dec(_SRV_DOMAIN)
     lines = [
         "#EXTM3U",
         f"#EXT-X-USER-AGENT:{BROWSER_UA}",
-        f"#EXT-X-REFERER:https://{target_domain}/",
-        f"#EXT-X-ORIGIN:https://{target_domain}"
+        f"#EXT-X-REFERER:https://{active_domain}/",
+        f"#EXT-X-ORIGIN:https://{active_domain}"
     ]
 
     category_counts = defaultdict(int)
@@ -441,7 +513,6 @@ def generate_m3u8(channels, output_file, group_title):
     for ch in sorted_channels:
         logo_part = f' tvg-logo="{ch["logo"]}"' if ch["logo"] else ""
         tvg_id_part = f' tvg-id="{ch["tvg_id"]}"' if ch["tvg_id"] else ""
-        # group-title olarak belirlenen kategori yazılır
         extinf = f'#EXTINF:-1{tvg_id_part} tvg-name="{ch["name"]}"{logo_part} group-title="{ch["category"]}",{ch["name"]}'
         lines.append(extinf)
         lines.append(ch["url"])
@@ -452,7 +523,7 @@ def generate_m3u8(channels, output_file, group_title):
         f.write(content)
 
     file_size_kb = round(len(content.encode('utf-8')) / 1024, 1)
-    print(f"💾 [{group_title}] -> '{output_file}' kaydedildi ({len(channels)} kanal, {file_size_kb} KB).")
+    print(f"💾 [{group_title}] -> '{output_file}' kaydedildi ({len(channels)} kanal, {file_size_kb} KB, Sunucu: {active_domain}).")
     print(f"   📂 Kategori Dağılımı:")
     for cat in priority_order:
         if cat in category_counts:
@@ -465,28 +536,34 @@ def generate_m3u8(channels, output_file, group_title):
 def main():
     print("\n" + "=" * 65)
     print(f"▶️ TV-LISTS LİSTE KAZIMA BAŞLADI: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"🎯 Hedef Ülkeler: {', '.join(COUNTRY_GROUPS.keys())}")
+    print(f"🎯 Hedef Ülkeler : {', '.join(COUNTRY_GROUPS.keys())}")
+    print(f"🌐 Mirror Havuzu : {', '.join(MIRROR_DOMAINS)}")
     print("=" * 65)
 
     start_time = time.time()
     sig = get_auth_signature()
+
+    # Havuzdaki çalışan aktif domain'i belirle
+    active_domain = get_working_domain(signature=sig)
+    print(f"🚀 Seçilen Aktif Sunucu: https://{active_domain}")
+    print("-" * 65)
 
     groups_to_fetch = list(COUNTRY_GROUPS.keys())
     print(f"📡 Toplam {len(groups_to_fetch)} grup paralel olarak çekiliyor...")
 
     results = {}
     with ThreadPoolExecutor(max_workers=min(5, len(groups_to_fetch))) as executor:
-        futures = [executor.submit(fetch_group_channels, g, sig) for g in groups_to_fetch]
+        futures = [executor.submit(fetch_group_channels, g, sig, active_domain) for g in groups_to_fetch]
         for f in futures:
-            group_name, ch_list = f.result()
-            results[group_name] = ch_list
-            print(f" 📺 [{group_name:15}]: {len(ch_list):4d} kanal bulundu")
+            group_name, ch_list, domain_used = f.result()
+            results[group_name] = (ch_list, domain_used)
+            print(f" 📺 [{group_name:15}]: {len(ch_list):4d} kanal bulundu (Kaynak: {domain_used})")
 
     print("-" * 65)
     for group_name, output_file in COUNTRY_GROUPS.items():
-        ch_list = results.get(group_name, [])
+        ch_list, domain_used = results.get(group_name, ([], active_domain))
         if ch_list:
-            generate_m3u8(ch_list, output_file, group_name)
+            generate_m3u8(ch_list, output_file, group_name, domain_used)
         else:
             print(f"⚠️ [{group_name}] için hiç kanal bulunamadı, dosya oluşturulmadı.")
 
