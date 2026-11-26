@@ -126,40 +126,26 @@ https://kool.ws/vavoo-iptv/play/271809251598ac789ff089
 https://kool.ws/vavoo-iptv/play/270668019efb0cc07b0ed
 #EXTINF:-1 tvg-name="VIAPLAY 1" group-title="🇳🇱 Sport",VIAPLAY 1
 https://kool.ws/vavoo-iptv/play/315048506856aefbad8393
-#EXTINF:-1 tvg-name="VIAPLAY 10" group-title="🇳🇱 Sport",VIAPLAY 10
-https://kool.ws/vavoo-iptv/play/2299450931f64903a19ccf
-#EXTINF:-1 tvg-name="VIAPLAY 13" group-title="🇳🇱 Sport",VIAPLAY 13
-https://kool.ws/vavoo-iptv/play/34675540195848b774ac0c
-#EXTINF:-1 tvg-name="VIAPLAY 19" group-title="🇳🇱 Sport",VIAPLAY 19
-https://kool.ws/vavoo-iptv/play/22166047384a9b339b4b80
 #EXTINF:-1 tvg-name="VIAPLAY 2" group-title="🇳🇱 Sport",VIAPLAY 2
 https://kool.ws/vavoo-iptv/play/423473474805142599eb3c
-#EXTINF:-1 tvg-name="VIAPLAY 25" group-title="🇳🇱 Sport",VIAPLAY 25
-https://kool.ws/vavoo-iptv/play/3346672621e9ae11e7b101
+#EXTINF:-1 tvg-name="VIAPLAY 24" group-title="🇳🇱 Sport",VIAPLAY 24
+https://kool.ws/vavoo-iptv/play/419600854131b41047776c
 #EXTINF:-1 tvg-name="VIAPLAY 26" group-title="🇳🇱 Sport",VIAPLAY 26
 https://kool.ws/vavoo-iptv/play/2161791293404626881e64
 #EXTINF:-1 tvg-name="VIAPLAY 27" group-title="🇳🇱 Sport",VIAPLAY 27
 https://kool.ws/vavoo-iptv/play/318311438110e184c59d73
-#EXTINF:-1 tvg-name="VIAPLAY 28" group-title="🇳🇱 Sport",VIAPLAY 28
-https://kool.ws/vavoo-iptv/play/1072361308ef1f8a2c3fdd
-#EXTINF:-1 tvg-name="VIAPLAY 30" group-title="🇳🇱 Sport",VIAPLAY 30
-https://kool.ws/vavoo-iptv/play/3301340984f1b096c42773
-#EXTINF:-1 tvg-name="VIAPLAY 4" group-title="🇳🇱 Sport",VIAPLAY 4
-https://kool.ws/vavoo-iptv/play/19320077408844a258ab2e
+#EXTINF:-1 tvg-name="VIAPLAY 29" group-title="🇳🇱 Sport",VIAPLAY 29
+https://kool.ws/vavoo-iptv/play/426493244d0d45f187d2
 #EXTINF:-1 tvg-name="VIAPLAY 5" group-title="🇳🇱 Sport",VIAPLAY 5
 https://kool.ws/vavoo-iptv/play/13133538684e682a84c7fd
-#EXTINF:-1 tvg-name="VIAPLAY 9" group-title="🇳🇱 Sport",VIAPLAY 9
-https://kool.ws/vavoo-iptv/play/23441483658921fae72dbe
 #EXTINF:-1 tvg-name="VIAPLAY F1 (MATCH TIME)" group-title="🇳🇱 Sport",VIAPLAY F1 (MATCH TIME)
 https://kool.ws/vavoo-iptv/play/1908891114fa4e20e3da8
-#EXTINF:-1 tvg-name="VIAPLAY F1 OLAV MOL" group-title="🇳🇱 Sport",VIAPLAY F1 OLAV MOL
-https://kool.ws/vavoo-iptv/play/897447105d14b727b221c
 #EXTINF:-1 tvg-name="VIAPLAY INFO GUIDE" group-title="🇳🇱 Sport",VIAPLAY INFO GUIDE
 https://kool.ws/vavoo-iptv/play/2822532713467b0fb2d566
 #EXTINF:-1 tvg-name="VIAPLAY TV" group-title="🇳🇱 Sport",VIAPLAY TV
 https://kool.ws/vavoo-iptv/play/32021194285abd67b28ace
-#EXTINF:-1 tvg-name="VIAPLAY TV GIDS VANDAAG" group-title="🇳🇱 Sport",VIAPLAY TV GIDS VANDAAG
-https://kool.ws/vavoo-iptv/play/30168812734b9e40112127
+#EXTINF:-1 tvg-name="VIAPLAY TV+" group-title="🇳🇱 Sport",VIAPLAY TV+
+https://kool.ws/vavoo-iptv/play/4276483733ccba576f8eda
 #EXTINF:-1 tvg-name="ZIGGO DOCU" group-title="🇳🇱 Sport",ZIGGO DOCU
 https://kool.ws/vavoo-iptv/play/38648098117220ba2eaf12
 #EXTINF:-1 tvg-name="ZIGGO SPORT" group-title="🇳🇱 Sport",ZIGGO SPORT
@@ -204,6 +190,8 @@ https://kool.ws/vavoo-iptv/play/281998250a51d79e3de6e
 https://kool.ws/vavoo-iptv/play/3586469911d44c006cd627
 #EXTINF:-1 tvg-name="ZIGGO SPORT VOETBAL (ZIGGO SPORT 2)" tvg-logo="https://logo.huhu.to/logo?c=3756192978.png" group-title="🇳🇱 Sport",ZIGGO SPORT VOETBAL (ZIGGO SPORT 2)
 https://kool.ws/vavoo-iptv/play/3756192978ba9737da958d
+#EXTINF:-1 tvg-name="COMEDY CENTRAL" tvg-logo="https://logo.huhu.to/logo?c=1269765291.png" group-title="🇳🇱 Films & Series",COMEDY CENTRAL
+https://kool.ws/vavoo-iptv/play/12697652910de2b73b42de
 #EXTINF:-1 tvg-name="COMEDY CENTRAL" group-title="🇳🇱 Films & Series",COMEDY CENTRAL
 https://kool.ws/vavoo-iptv/play/106811917638e7918c0ef2
 #EXTINF:-1 tvg-name="COMEDY CENTRAL EXTRA" group-title="🇳🇱 Films & Series",COMEDY CENTRAL EXTRA
@@ -220,6 +208,8 @@ https://kool.ws/vavoo-iptv/play/2143191607625f23f0eca0
 https://kool.ws/vavoo-iptv/play/36908749419bacb067c744
 #EXTINF:-1 tvg-name="STAR CHANNEL" group-title="🇳🇱 Films & Series",STAR CHANNEL
 https://kool.ws/vavoo-iptv/play/2367829148de372725fb07
+#EXTINF:-1 tvg-name="24 KITCHEN" tvg-logo="https://logo.huhu.to/logo?c=622061122.png" group-title="🇳🇱 Documentaire & Lifestyle",24 KITCHEN
+https://kool.ws/vavoo-iptv/play/622061122fafbef265900
 #EXTINF:-1 tvg-name="24 KITCHEN" group-title="🇳🇱 Documentaire & Lifestyle",24 KITCHEN
 https://kool.ws/vavoo-iptv/play/155257124920b91341a38c
 #EXTINF:-1 tvg-name="ANIMAL PLANET" tvg-logo="https://logo.huhu.to/logo?c=75666354.png" group-title="🇳🇱 Documentaire & Lifestyle",ANIMAL PLANET
@@ -324,12 +314,18 @@ https://kool.ws/vavoo-iptv/play/3933634364fa5fee1f7ec3
 https://kool.ws/vavoo-iptv/play/30068004282e1d7b2901a2
 #EXTINF:-1 tvg-name="MTV HITS" group-title="🇳🇱 Muziek",MTV HITS
 https://kool.ws/vavoo-iptv/play/223400681987987ea8e669
+#EXTINF:-1 tvg-name="MTV LIVE" group-title="🇳🇱 Muziek",MTV LIVE
+https://kool.ws/vavoo-iptv/play/2735403248b72548f02c30
+#EXTINF:-1 tvg-name="NICK MUSIC" group-title="🇳🇱 Muziek",NICK MUSIC
+https://kool.ws/vavoo-iptv/play/1137374425292f5baac48f
 #EXTINF:-1 tvg-name="NICKMUSIC" tvg-logo="https://logo.huhu.to/logo?c=518270746.png" group-title="🇳🇱 Muziek",NICKMUSIC
 https://kool.ws/vavoo-iptv/play/51827074682ca51c3e261
 #EXTINF:-1 tvg-name="OMROEP BRABANT RADIO" tvg-logo="https://logo.huhu.to/logo?c=3640625031.png" group-title="🇳🇱 Muziek",OMROEP BRABANT RADIO
 https://kool.ws/vavoo-iptv/play/36406250316eb185804e37
 #EXTINF:-1 tvg-name="QMUSIC" tvg-logo="https://logo.huhu.to/logo?c=4157396273.png" group-title="🇳🇱 Muziek",QMUSIC
 https://kool.ws/vavoo-iptv/play/41573962734ad89e4e67b5
+#EXTINF:-1 tvg-name="RADIO 350" tvg-logo="https://logo.huhu.to/logo?c=2566467401.png" group-title="🇳🇱 Muziek",RADIO 350
+https://kool.ws/vavoo-iptv/play/2566467401e114c0c4a767
 #EXTINF:-1 tvg-name="SALTO BRASA MUSIC" tvg-logo="https://logo.huhu.to/logo?c=4110941162.png" group-title="🇳🇱 Muziek",SALTO BRASA MUSIC
 https://kool.ws/vavoo-iptv/play/41109411624f1a7fb47e09
 #EXTINF:-1 tvg-name="SLAM" tvg-logo="https://logo.huhu.to/logo?c=4229163295.png" group-title="🇳🇱 Muziek",SLAM
@@ -352,8 +348,8 @@ https://kool.ws/vavoo-iptv/play/2629204497e948213e946f
 https://kool.ws/vavoo-iptv/play/26077053499acb23932674
 #EXTINF:-1 tvg-name="BR6 TV" group-title="🇳🇱 Regionaal",BR6 TV
 https://kool.ws/vavoo-iptv/play/3699377699174f5931c14c
-#EXTINF:-1 tvg-name="IDEAAL TV" tvg-logo="https://logo.huhu.to/logo?c=1302816819.png" group-title="🇳🇱 Regionaal",IDEAAL TV
-https://kool.ws/vavoo-iptv/play/13028168192c21969d8908
+#EXTINF:-1 tvg-name="DEN HAAG FM" tvg-logo="https://logo.huhu.to/logo?c=1268929440.png" group-title="🇳🇱 Regionaal",DEN HAAG FM
+https://kool.ws/vavoo-iptv/play/126892944049194eee6ac1
 #EXTINF:-1 tvg-name="L1" tvg-logo="https://logo.huhu.to/logo?c=1528285163.png" group-title="🇳🇱 Regionaal",L1
 https://kool.ws/vavoo-iptv/play/1528285163cdb5caf07fad
 #EXTINF:-1 tvg-name="L1 TV LIMBURG" group-title="🇳🇱 Regionaal",L1 TV LIMBURG
@@ -410,8 +406,6 @@ https://kool.ws/vavoo-iptv/play/1273177850d156644fc284
 https://kool.ws/vavoo-iptv/play/3646404328bb35430f82e3
 #EXTINF:-1 tvg-name="OMROEP GELDERLAND" group-title="🇳🇱 Overig",OMROEP GELDERLAND
 https://kool.ws/vavoo-iptv/play/281317284232242f7a934f
-#EXTINF:-1 tvg-name="OMROEP HULST TV" tvg-logo="https://logo.huhu.to/logo?c=3576709928.png" group-title="🇳🇱 Overig",OMROEP HULST TV
-https://kool.ws/vavoo-iptv/play/3576709928966af68f2dff
 #EXTINF:-1 tvg-name="OMROEP TILBURG" group-title="🇳🇱 Overig",OMROEP TILBURG
 https://kool.ws/vavoo-iptv/play/283249358031d944026636
 #EXTINF:-1 tvg-name="OMROEP WEST" tvg-logo="https://logo.huhu.to/logo?c=21627316.png" group-title="🇳🇱 Overig",OMROEP WEST
@@ -439,9 +433,9 @@ https://kool.ws/vavoo-iptv/play/3755034524d4e9c6126d09
 #EXTINF:-1 tvg-name="RTV 1" group-title="🇳🇱 Overig",RTV 1
 https://kool.ws/vavoo-iptv/play/403734524551f60afb5536
 #EXTINF:-1 tvg-name="RTV 7" group-title="🇳🇱 Overig",RTV 7
-https://kool.ws/vavoo-iptv/play/2145651325855b91c7ca17
-#EXTINF:-1 tvg-name="RTV 7" group-title="🇳🇱 Overig",RTV 7
 https://kool.ws/vavoo-iptv/play/21118559694445d779f93d
+#EXTINF:-1 tvg-name="RTV ARNHEM" tvg-logo="https://logo.huhu.to/logo?c=2748829730.png" group-title="🇳🇱 Overig",RTV ARNHEM
+https://kool.ws/vavoo-iptv/play/27488297300367c97b625d
 #EXTINF:-1 tvg-name="RTV ARNHEM" group-title="🇳🇱 Overig",RTV ARNHEM
 https://kool.ws/vavoo-iptv/play/36625728173122eabe94d4
 #EXTINF:-1 tvg-name="RTV CONNECT TV" tvg-logo="https://logo.huhu.to/logo?c=1844152054.png" group-title="🇳🇱 Overig",RTV CONNECT TV
@@ -460,6 +454,8 @@ https://kool.ws/vavoo-iptv/play/5842558809e0dd7da44f3
 https://kool.ws/vavoo-iptv/play/3504870445d2b209777834
 #EXTINF:-1 tvg-name="RTV OOST" group-title="🇳🇱 Overig",RTV OOST
 https://kool.ws/vavoo-iptv/play/1033150245c3718f5841f6
+#EXTINF:-1 tvg-name="RTV PARKSTAD" group-title="🇳🇱 Overig",RTV PARKSTAD
+https://kool.ws/vavoo-iptv/play/290093242540ee6e8179aa
 #EXTINF:-1 tvg-name="RTV PARKSTAD" group-title="🇳🇱 Overig",RTV PARKSTAD
 https://kool.ws/vavoo-iptv/play/1291072245966b99e417e9
 #EXTINF:-1 tvg-name="RTV PURMEREND" tvg-logo="https://logo.huhu.to/logo?c=2744749097.png" group-title="🇳🇱 Overig",RTV PURMEREND
@@ -500,8 +496,6 @@ https://kool.ws/vavoo-iptv/play/384330772ffad167885d3
 https://kool.ws/vavoo-iptv/play/222260095070e2ad4858c3
 #EXTINF:-1 tvg-name="TLC" group-title="🇳🇱 Overig",TLC
 https://kool.ws/vavoo-iptv/play/1605713445664043d6d727
-#EXTINF:-1 tvg-name="TRAVELXP" tvg-logo="https://logo.huhu.to/logo?c=2154351987.png" group-title="🇳🇱 Overig",TRAVELXP
-https://kool.ws/vavoo-iptv/play/21543519876f1739c40605
 #EXTINF:-1 tvg-name="TV 538" tvg-logo="https://logo.huhu.to/logo?c=387832715.png" group-title="🇳🇱 Overig",TV 538
 https://kool.ws/vavoo-iptv/play/387832715b35d21bea83c
 #EXTINF:-1 tvg-name="TV 538" group-title="🇳🇱 Overig",TV 538
@@ -528,10 +522,6 @@ https://kool.ws/vavoo-iptv/play/24186721357aec7acda37f
 https://kool.ws/vavoo-iptv/play/25492247234f0e99e3f5aa
 #EXTINF:-1 tvg-name="XITE CLASSIC COUNTRY" group-title="🇳🇱 Overig",XITE CLASSIC COUNTRY
 https://kool.ws/vavoo-iptv/play/18560594416a7d6a6d3c85
-#EXTINF:-1 tvg-name="XITE GOSPEL" group-title="🇳🇱 Overig",XITE GOSPEL
-https://kool.ws/vavoo-iptv/play/373812622297fc85ad3155
-#EXTINF:-1 tvg-name="XITE ROCK" group-title="🇳🇱 Overig",XITE ROCK
-https://kool.ws/vavoo-iptv/play/9216155382f2cc45f412
 #EXTINF:-1 tvg-name="ZFM ZOETERMEER" group-title="🇳🇱 Overig",ZFM ZOETERMEER
 https://kool.ws/vavoo-iptv/play/34361608961885cfdd9fb6
 #EXTINF:-1 tvg-name="ZO!34" group-title="🇳🇱 Overig",ZO!34
